@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grok Bot · 动态头像</title><link rel="stylesheet" href="./avatar-motion.css"></head><body>
+<nav class="kit-nav"><a href="../index.html">← Grok Bot UI / UX Kit</a><span>官网原头像组件 · 动态参考</span><a href="../docs/avatar-animation.md">接入说明</a></nav>
+<main class="motion-page"><header><h1>每个 Bot 都有自己的表情</h1><p>呼吸、眨眼、身体变化与状态反馈。下方使用从官网公开脚本提取的原组件。</p></header>
+<section id="bot-avatars" class="motion-bots" aria-label="Bot 头像"></section>
+<section class="motion-controls"><div class="hero-frame"><span id="hero-avatar" class="motion-avatar hero-avatar" style="--fg:#54B9A6;--bg:var(--canvas)"></span><strong id="motion-current">idle</strong><p id="motion-description">自然呼吸与自动眨眼</p></div><div class="control-form">
+<label>动画状态<select id="motion-state" aria-label="动画状态"></select></label><label>头像轮廓<select id="motion-shape" aria-label="头像轮廓"></select></label>
+<label>主题<select id="motion-theme" aria-label="主题"><option value="light">浅色</option><option value="dark">深色</option></select></label>
+<label class="motion-toggle"><input id="motion-pause" type="checkbox">暂停动画</label><div class="motion-actions"><button id="motion-spin">转一圈</button><button id="motion-bounce">弹跳</button><button id="motion-burst">庆祝粒子</button></div><p class="motion-note">状态选择同时更新六个 Bot。系统“减少动态效果”开启时自动显示静态姿态；群聊组合头像暂用静态素材。</p>
+</div></section><p class="motion-source">官网：35 种状态、25 种轮廓；DMG：另附原动画引擎及 53 种状态。两套来源独立保存，版本不混用。</p>
+</main><script type="module" src="./avatar-motion.js"></script></body></html>

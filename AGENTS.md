@@ -13,3 +13,5 @@
 - 用户没有请求时不要加入真实登录、付款、自动更新、电脑控制或目标程序执行。
 
 - 根入口是按官网内嵌产品演示修正的界面；先读docs/website-comparison.md。不要再把workbench状态测试页当作官网界面复刻结果。官网CSS/头像/主题独立标来源，不能覆盖DMG原始证据。
+
+- 动态头像先读docs/avatar-animation.md：官网35状态/25轮廓与DMG53状态分开；generated文件只能按manifest重建，保留原来源。预览的业务事件→表情映射为示例选择。卸载必须清理RAF/React/media监听；静态快照不能冒充动画。

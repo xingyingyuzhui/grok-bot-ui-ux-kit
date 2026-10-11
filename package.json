@@ -11,11 +11,25 @@
     },
     "./styles.css": "./src/styles.css",
     "./tokens.css": "./tokens/themes.css",
-    "./tokens": "./tokens/themes.js"
+    "./tokens": "./tokens/themes.js",
+    "./avatar": {
+      "types": "./src/avatar.d.ts",
+      "default": "./src/avatar.js"
+    },
+    "./avatar.css": "./src/avatar.css",
+    "./dmg-avatar-engine": "./src/avatar-engine.generated.js"
   },
   "scripts": {
-    "build": "python3 scripts/build.py && python3 scripts/build-reference.py && python3 scripts/build-product.py && python3 scripts/build-gallery.py",
+    "build": "python3 scripts/build-avatar-engine.py && node scripts/build-avatar-browser.js && python3 scripts/build.py && python3 scripts/build-reference.py && python3 scripts/build-product.py && python3 scripts/build-gallery.py",
     "check": "python3 scripts/verify.py && node --test tests/*.test.js",
     "dev": "python3 -m http.server 8766 --bind 127.0.0.1"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "jsdom": "30.1.2"
   }
 }

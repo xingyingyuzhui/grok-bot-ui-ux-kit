@@ -14,7 +14,7 @@
 2. 对 DMG 静态 inspect。严格完整性检查未通过；以 `record-and-continue` 保存实际差异继续分析。该模式允许读取，不等同于信任校验通过。
 3. 只读挂载 DMG，对 app 内 `Contents/Resources/app.asar` 提取；提取651文件并逐文件校验后复制到工作目录；完成后卸载镜像。
 4. 限定 renderer 做 REA静态分析：519个JS、2个HTML，JS解析失败为0。图关系因内存/结果预算为 partial，记录979项 limitations；不是完整语义恢复。
-5. 定向阅读 CSS与编译JS，恢复主题136变量、808图标名称和UI布局/状态路径。原应用代码没有执行，原App没有启动或登录。
+5. 定向阅读 CSS与编译JS，恢复主题136变量、808图标名称和UI布局/状态路径。初始静态分析阶段没有执行原应用代码，原App没有启动或登录。后续为动态头像提取并在独立参考环境运行了已审核的头像数学/渲染子集，见 [动画接入](avatar-animation.md)。
 6. 参考仓库保留 renderer和UI preload；另有独立的`reference/website/`官网观察，见 [画面对照](website-comparison.md)；原DMG、ASAR、完整主进程与可执行应用没有提交。参考文件全量哈希见 [reference/manifest.json](../reference/manifest.json)。
 
 ## 完整性差异

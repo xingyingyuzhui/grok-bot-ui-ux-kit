@@ -14,7 +14,7 @@
 | 侧边栏 | 280宽、上栏44高 | 同尺寸；可拖动240–400，自动紧凑88参考DMG |
 | 聊天行 | 53高、padding8、gap8、两行文案 | 同密度；名称+时间+截断预览 |
 | 搜索框 | 254×32、圆角10 | 默认280栏下同尺寸 |
-| 头像 | 32px、多颜色、多形状；群组三头像18px | 原公开SVG路径，保留三层群组形态 |
+| 头像 | 32px、多颜色、多形状；群组三头像18px | 官网原动画组件，正确的blob/wedge/gem轮廓；群组三层仍为静态 |
 | 主标题栏 | 44高、18px头像、13/18文字、电脑图标 | 同布局；电脑与详情为本地入口 |
 | 消息 | 14/20文字、padding8/12、16圆角；用户靠右 | 同；示例文案和账户为本仓库编写 |
 | 输入 | 胶囊、45高、padding8、28动作按钮 | 同；本地可编辑，换行最大120高 |
@@ -41,8 +41,12 @@ Enter发送、Shift+Enter换行；IME组成中不发送。空输入按钮模拟�
 
 ## 向目标项目复制
 
-官网结构可复制 `examples/product.css`、`examples/product.js` 和 `examples/product.html`。样式依赖`reference/website/observed.css`、`tokens/themes.css`、原图标字体；脚本依赖`src/`、图标映射、`assets/website/manifest.json`。保持相对目录，或按目标构建器更新路径。不要只复制HTML而遗漏CSS依赖。
+官网结构可复制 `examples/product.css`、`examples/product.js` 和 `examples/product.html`。样式依赖`reference/website/observed.css`、`tokens/themes.css`、原图标字体；脚本依赖`src/`、`dist/avatar.js`、图标映射、`assets/website/manifest.json`。保持相对目录，或按目标构建器更新路径。不要只复制HTML而遗漏CSS依赖。
 
 [assets/website](../assets/website/)额外提供7个可独立显示的头像SVG，来源与哈希另列清单；它们不混入53份DMG静态素材的统计。生成器为公开SVG加了独立渲染的颜色变量/样式，并组合群组头像；原观察路径保留在observation中。未重新绘制品牌图形。
 
 复刻目标项目建议把DOM拆成Sidebar/ChatHeader/Transcript/Composer/ComputerPreview/Settings组件，数据适配器另实现。`product.js`是参考实现，不能直接当完整生产客户端。
+
+## 动态头像修正
+
+7份SVG是观察时刻的静态快照，不能作为动画实现。当前主预览已改用官网原动画组件；眨眼、呼吸、表情与形变通过 RAF 更新 SVG 几何。Inbox/Account 的快照可能处在变形过渡帧，现在分别使用官网数据确认的 wedge/gem。完整接口、状态表、原文件与动画验证见 [动态头像接入](avatar-animation.md)。

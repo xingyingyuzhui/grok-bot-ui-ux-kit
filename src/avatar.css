@@ -1,0 +1,25 @@
+.grok-bot-mark {
+  user-select: none;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.grok-bot-mark__head {
+  fill: var(--fg);
+  transition: fill 0.6s;
+}
+.grok-bot-mark__eye {
+  fill: var(--bg);
+  transition: fill 0.6s;
+}
+.grok-bot-mark--fill {
+  flex-shrink: 0;
+  width: 100%;
+}
+@media (prefers-reduced-motion: reduce) {
+  .grok-bot-mark__head,
+  .grok-bot-mark__eye {
+    transition: none;
+  }
+}

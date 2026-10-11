@@ -34,3 +34,7 @@ UI 默认用系统字体；XVF 是条件分支，勿因为包内有字体就宣�
 `assets/icon-map.json` 是恢复出的名称→字形映射，不是原作者单独发放的 JSON；`tokens/` 是恢复出的主题值。源码位置与校验见各清单和 [provenance](provenance.md)。授权说明见 [NOTICE](../NOTICE.md)。
 
 官网额外头像在 [assets/website](../assets/website/)，共7份；来源与SHA-256独立记录，未混入53份DMG素材统计。使用SVG文件作为img可直接显示；内联使用时可按`--fg`/`--bg`改变色彩。官网与安装包视觉差异见 [website-comparison](website-comparison.md)。
+
+## 动态头像素材
+
+`assets/website/*.svg` 是静态帧，不能循环播放。真实头像动画的可复用材料为 `src/*avatar*.generated.js`、`src/avatar.js`、`src/avatar.css` 和预构建 `dist/avatar.js`；状态/形状/时序表与源范围清单在 `assets/avatar-motion/`。官网公开原文件在 `reference/website/motion/`，不混入原DMG的53份静态素材计数。[完整接入说明](avatar-animation.md)。

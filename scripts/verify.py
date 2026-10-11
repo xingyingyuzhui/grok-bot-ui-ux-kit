@@ -19,6 +19,22 @@ for asset in json.loads((root / 'assets/website/manifest.json').read_text())['as
     assert not any(el.tag.endswith('script') for el in tree.iter())
 for record in json.loads((root / 'reference/manifest.json').read_text())['files']:
     assert digest(root / record['path']) == record['sha256'], record['path']
+# Audited motion subsets: preserve original sources and every selected declaration/statement.
+dmg_motion=json.loads((root/'assets/avatar-motion/dmg-extraction.json').read_text())
+assert digest(root/dmg_motion['source']) == dmg_motion['sourceSha256']
+assert not dmg_motion['imports']
+assert set(dmg_motion['globals']) <= {'Array','Error','Float64Array','Int32Array','Map','Math','Number','Object','Set','String','Uint8Array','WeakMap','parseFloat'}
+for specification in [dmg_motion,*json.loads((root/'assets/avatar-motion/website-extraction.json').read_text())['modules']]:
+    assert digest(root/specification['source']) == specification['sourceSha256']
+    source=(root/specification['source']).read_text().encode('utf-16-le')
+    for part in specification.get('declarations',specification.get('segments',[])):
+        fragment=source[part['start']*2:part['end']*2].decode('utf-16-le')
+        assert hashlib.sha256(fragment.encode()).hexdigest() == part['sha256']
+        assert len(source[:part['start']*2].decode('utf-16-le')) == part['charOffset']
+wrapper=json.loads((root/'assets/avatar-motion/website-extraction.json').read_text())['wrapperEvidence']
+assert digest(root/wrapper['path']) == wrapper['sha256']
+catalog=json.loads((root/'assets/avatar-motion/catalog.json').read_text())
+assert len(catalog['website']['states']) == 35 and len(catalog['website']['shapes']) == 25 and len(catalog['dmg']['states']) == 53
 assets = json.loads((root / 'assets/manifest.json').read_text())['assets']
 for asset in assets:
     assert digest(root / asset['path']) == asset['sha256'], asset['path']
@@ -55,7 +71,7 @@ for path in [root / 'index.html', *root.glob('examples/*.html')]:
         if '://' in link or link.startswith('data:') or link.startswith('#'):
             continue
         assert (path.parent / link).exists(), f'Broken HTML asset: {path.relative_to(root)} -> {link}'
-for path in [*root.glob('src/*.js'), *root.glob('examples/*.js'), *root.glob('tokens/*.js')]:
+for path in [*root.glob('src/*.js'), *root.glob('examples/*.js'), *root.glob('tokens/*.js'),*root.glob('scripts/*.js'),*root.glob('dist/*.js')]:
     subprocess.run(['node', '--check', str(path)], check=True)
 assert not list(root.rglob('*.dmg')) and not list(root.rglob('*.asar'))
-print(f'OK: {len(assets)} asset hashes, 136 token anchors, 808 icons, 7 website avatars, original reference hashes, 3 canonical Evidence records, Markdown/HTML links and JS syntax')
+print(f'OK: {len(assets)} asset hashes, 136 token anchors, 808 icons, 7 website SVG snapshots, 3 original website avatar modules, 633 DMG motion declarations, original reference hashes, 3 canonical Evidence records, Markdown/HTML links and JS syntax')

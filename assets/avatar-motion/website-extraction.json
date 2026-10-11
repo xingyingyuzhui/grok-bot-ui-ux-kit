@@ -1,0 +1,492 @@
+{
+  "sourceUrl": "https://x.ai/bot",
+  "observedDate": "2026-10-11",
+  "offsetUnit": "UTF-16 code units, zero-based exclusive end; charOffset uses Unicode code points",
+  "modules": [
+    {
+      "source": "reference/website/motion/2x3dmgtyfwu26.js",
+      "sourceUrl": "https://x.ai/_next/static/chunks/2x3dmgtyfwu26.js?dpl=dc5f6366432c4e640dd538504ce744d0297bf6cb",
+      "sourceSha256": "bb479fb35681214f139e433638255bdbefc0207fd3088bf1da373e0b6dc440fd",
+      "target": "src/website-avatar.generated.js",
+      "segments": [
+        {
+          "start": 408,
+          "end": 421,
+          "charOffset": 408,
+          "sha256": "5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255",
+          "operation": "retain"
+        },
+        {
+          "start": 421,
+          "end": 441,
+          "charOffset": 421,
+          "sha256": "5b9201dad5d6b43bc709aa5fde747229349cd4253a81f35916fc14c1f6de91bd",
+          "operation": "retain"
+        },
+        {
+          "start": 441,
+          "end": 477,
+          "charOffset": 441,
+          "sha256": "98d8331d42697a5b05f394cc983b9bf0827870b9ece20a5f3384f2a5a5707db8",
+          "operation": "replace-module-import",
+          "replacement": "var u;\nvar h;\nimport * as c from 'react/jsx-runtime';\nimport * as d from 'react';"
+        },
+        {
+          "start": 477,
+          "end": 706,
+          "charOffset": 477,
+          "sha256": "ac2ce9e07cb0b23f17e2106649313e47748f9f5e2b2500e068cbb4656ecde55b",
+          "operation": "remove-telemetry",
+          "replacement": "var M;"
+        },
+        {
+          "start": 706,
+          "end": 37474,
+          "charOffset": 706,
+          "sha256": "15908bf07f0ab5793b795913cf6866e3cbe044dd087db812a4e5609fad0176ea",
+          "operation": "retain"
+        },
+        {
+          "start": 37474,
+          "end": 37520,
+          "charOffset": 37474,
+          "sha256": "29b349dbf3ad3c8b4136707db3683aa59ca2782e8055eea6d74631e5e7248682",
+          "operation": "replace-module-import",
+          "replacement": "import * as f from './website-avatar-data.generated.js';\nimport * as y from './website-avatar-data.generated.js';\nimport * as b from './website-avatar-data.generated.js';"
+        },
+        {
+          "start": 37520,
+          "end": 37749,
+          "charOffset": 37520,
+          "sha256": "fb081a9d58e0b1c3d794208e10c75c88ad2b0cec1889d6405f220d432cda4933",
+          "operation": "remove-telemetry",
+          "replacement": "var p;"
+        },
+        {
+          "start": 37749,
+          "end": 38075,
+          "charOffset": 37749,
+          "sha256": "45d344e8556f0a84776826de97be9ba8c003cc772614cd249222f4684c6781d1",
+          "operation": "retain"
+        },
+        {
+          "start": 38075,
+          "end": 38304,
+          "charOffset": 38075,
+          "sha256": "ef0c2409e4834441cd32faf823eb605cd7f7d78da70992b9095080833459ffc3",
+          "operation": "remove-telemetry",
+          "replacement": "var k;"
+        },
+        {
+          "start": 38304,
+          "end": 38464,
+          "charOffset": 38304,
+          "sha256": "d97595ea308cc13e1443204cbf2e05365c5fbe75742ee9209c7bcb3013e62bb0",
+          "operation": "retain"
+        },
+        {
+          "start": 38464,
+          "end": 38693,
+          "charOffset": 38464,
+          "sha256": "74600fb4a0d2a1584627d248b75e5377b8d0c862f67e8aeaec8a9fbc853c269d",
+          "operation": "remove-telemetry",
+          "replacement": "var v;"
+        },
+        {
+          "start": 38693,
+          "end": 80833,
+          "charOffset": 38693,
+          "sha256": "4a0c65b1a847ac4680bf97d4253034c22590a4d01785a8ff1be26fd44e507917",
+          "operation": "retain"
+        },
+        {
+          "start": 80833,
+          "end": 80860,
+          "charOffset": 80833,
+          "sha256": "3458babadad409752a4d4d1026ff6ec0c1ee1e9746dd5a14671089e9443e69ae",
+          "operation": "replace-module-export",
+          "replacement": "export { X as GrokBot };"
+        }
+      ],
+      "exports": [
+        "GrokBot"
+      ],
+      "imports": [
+        "react/jsx-runtime",
+        "react",
+        "./website-avatar-data.generated.js",
+        "./website-avatar-data.generated.js",
+        "./website-avatar-data.generated.js"
+      ]
+    },
+    {
+      "source": "reference/website/motion/2az6pe2uqwg5f.js",
+      "sourceUrl": "https://x.ai/_next/static/chunks/2az6pe2uqwg5f.js?dpl=dc5f6366432c4e640dd538504ce744d0297bf6cb",
+      "sourceSha256": "8d5920247bbacaa5604a4681df9dde9642819c9913b0f9cc4c217b59cae480ae",
+      "target": "src/website-avatar-data.generated.js",
+      "segments": [
+        {
+          "start": 422,
+          "end": 435,
+          "charOffset": 422,
+          "sha256": "5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255",
+          "operation": "retain"
+        },
+        {
+          "start": 435,
+          "end": 455,
+          "charOffset": 435,
+          "sha256": "d0dda4e8df3c4f70bfd0e36650ccb35314c7dc6e4ced5dc254f06329befa6e3d",
+          "operation": "retain"
+        },
+        {
+          "start": 455,
+          "end": 686,
+          "charOffset": 455,
+          "sha256": "1a316727949a41663edff524c35d449a902397af39cde2382a817976ebdbe96f",
+          "operation": "remove-telemetry",
+          "replacement": "var h,u;"
+        },
+        {
+          "start": 686,
+          "end": 2487,
+          "charOffset": 686,
+          "sha256": "62d16475fb56462443d129d2dafbb6cf9075675986ddf002d16a34f94d2c6e7b",
+          "operation": "retain"
+        },
+        {
+          "start": 2487,
+          "end": 4334,
+          "charOffset": 2487,
+          "sha256": "9eae65475b0b1f0e2842903d19da13842c5c31374917d4cba392f566d466e8f6",
+          "operation": "replace-module-export",
+          "replacement": "const websiteExport0=21;\nexport { websiteExport0 as EYE_HALF };\nexport { c as HEAD };\nconst websiteExport1=114.2705;\nexport { websiteExport1 as HEAD_C };\nconst websiteExport2=\"#f4c34e\";\nexport { websiteExport2 as STAR_GOLD };\nexport { d as STAR_PATH };\nconst websiteExport3=(e,t,r=1.05)=>{let a=f(e),n=f(t),i=Math.min(1,r/Math.max(a.halfLen/Math.max(n.halfLen,1e-6),a.halfW/Math.max(n.halfW,1e-6)));return i>=.999?e:e.map(([e,t])=>[a.cx+(e-a.cx)*i,a.cy+(t-a.cy)*i])};\nexport { websiteExport3 as capRingSize };\nexport { g as centroid };\nconst websiteExport4=(e,t,r)=>{let a=Math.max(0,Math.min(1,r));if(a<=0)return e;if(a>=1)return t;if(e.length!==t.length)return M(e,t,a);let n=f(e),i=f(t),s=Math.atan2(n.uy,n.ux),l=Math.atan2(i.uy,i.ux)-s;for(;l>Math.PI/2;)l-=Math.PI;for(;l<-Math.PI/2;)l+=Math.PI;let o=s+l*a,h=Math.cos(o),u=Math.sin(o),c=Math.max(.35,n.halfW+(i.halfW-n.halfW)*a),d=Math.max(0,n.halfLen-n.halfW)*(1-a)+Math.max(0,i.halfLen-i.halfW)*a;return C(n.cx+(i.cx-n.cx)*a,n.cy+(i.cy-n.cy)*a,h,u,d+c,c,e.length)};\nexport { websiteExport4 as lerpEyeRing };\nexport { M as lerpRing };\nconst websiteExport5=(e,t,r=0)=>{let a=f(e),n=f(t),i=Math.max(a.halfW,n.halfW,r),s=(e,t)=>{if(e.halfW>=.92*i)return t;let r=Math.max(0,e.halfLen-e.halfW)+i;return C(e.cx,e.cy,e.ux,e.uy,r,i,t.length)};return[s(a,e),s(n,t)]};\nexport { websiteExport5 as matchEyeStroke };\nconst websiteExport6=e=>{let t=f(e[0]),r=f(e[1]);return[e[0],C(r.cx,r.cy,r.ux,r.uy,t.halfLen,t.halfW,e[1].length)]};\nexport { websiteExport6 as matchRightEyeSize };\nconst websiteExport7=(e,t)=>{let r=e.map(f),a=t.map(f),n=r.map(e=>Math.atan2(e.uy,e.ux)),i=a.map(e=>Math.atan2(e.uy,e.ux)),s=(y(n[0]-i[0])+y(n[1]-i[1]))/2;return e.map((e,t)=>{let a=r[t],l=y(i[t]+s-n[t]),o=Math.cos(l),h=Math.sin(l);return e.map(([e,t])=>{let r=e-a.cx,n=t-a.cy;return[a.cx+r*o-n*h,a.cy+r*h+n*o]})})};\nexport { websiteExport7 as neutralizeRingPairCant };\nconst websiteExport8=e=>{let t=e.length,r=e=>e.toFixed(2);if(t<3)return\"M\"+e.map(e=>`${r(e[0])} ${r(e[1])}`).join(\"L\")+\"Z\";let a=`M${r(e[0][0])} ${r(e[0][1])}`;for(let n=0;n<t;n++){let i=e[(n-1+t)%t],s=e[n],l=e[(n+1)%t],o=e[(n+2)%t];a+=`C${r(s[0]+(l[0]-i[0])/6)} ${r(s[1]+(l[1]-i[1])/6)} ${r(l[0]-(o[0]-s[0])/6)} ${r(l[1]-(o[1]-s[1])/6)} ${r(l[0])} ${r(l[1])}`}return a+\"Z\"};\nexport { websiteExport8 as ringPath };"
+        },
+        {
+          "start": 4334,
+          "end": 4563,
+          "charOffset": 4334,
+          "sha256": "40ab9768611d0d11fc5e224c9152ff80cfba6ee4a7223a927e9219d35a37c25f",
+          "operation": "remove-telemetry",
+          "replacement": "var p;"
+        },
+        {
+          "start": 4563,
+          "end": 4631,
+          "charOffset": 4563,
+          "sha256": "a205a3df08aa7d9ff4a1e281be86e7f1daea6dec972317a578b1f042893f407b",
+          "operation": "retain"
+        },
+        {
+          "start": 4631,
+          "end": 5476,
+          "charOffset": 4631,
+          "sha256": "4bab5e7907714cd20ec0f619948706759df072e7c971dac93c7028a3af83f134",
+          "operation": "retain"
+        },
+        {
+          "start": 5476,
+          "end": 22742,
+          "charOffset": 5476,
+          "sha256": "27251a452331206b4a12edf50786c347e87a1b627642fd2ff90ad816e4a3bb24",
+          "operation": "retain"
+        },
+        {
+          "start": 22742,
+          "end": 22765,
+          "charOffset": 22742,
+          "sha256": "b2101443e41c683bb7d9bca734b8d21578bf5a8340210f4b3011c581979da576",
+          "operation": "retain"
+        },
+        {
+          "start": 22765,
+          "end": 22786,
+          "charOffset": 22765,
+          "sha256": "e4d993c858331802bdacf1eab764999d5ee9f1a7ae459ab7440219c936f5aa86",
+          "operation": "retain"
+        },
+        {
+          "start": 22786,
+          "end": 22877,
+          "charOffset": 22786,
+          "sha256": "637993954227c487a497e21e56da7a7d2afe16a2b6ff150aad0a78cc8f63a70f",
+          "operation": "replace-module-export",
+          "replacement": "export { O as CIRCLE_RING };\nexport { W as GROK_BOT_SHAPES };\nexport { T as SHAPES };\nconst websiteExport9=e=>x(e);\nexport { websiteExport9 as ringOutline };"
+        },
+        {
+          "start": 22877,
+          "end": 23106,
+          "charOffset": 22877,
+          "sha256": "9b8c42764af95da9061f4577a5c4458f0113eb8d67e868ed264f6808e0142880",
+          "operation": "remove-telemetry",
+          "replacement": "var z;"
+        },
+        {
+          "start": 23106,
+          "end": 23713,
+          "charOffset": 23106,
+          "sha256": "9244bfe3900a3c26d019002d29c0eecd21f49898979afc2c049e901aead4a093",
+          "operation": "retain"
+        },
+        {
+          "start": 23713,
+          "end": 25813,
+          "charOffset": 23713,
+          "sha256": "94f2965da73fb070c3b374d6890055e1390dc285349b4d4091d773b28d7186bd",
+          "operation": "replace-module-export",
+          "replacement": "const websiteExport10={sleeping:null,waking:null,idle:[6e3,14e3],listening:[3e3,7e3],thinking:[3500,7e3],searching:[1600,4e3],working:[2800,5500],excited:[2e3,4e3],surprised:[1800,3500],suspicious:[4500,8e3],angry:[3500,7e3],drowsy:null,happy:[2500,5e3],curious:[2500,5500],confused:[2800,5500],bored:[4e3,8e3],proud:[3500,7e3],shy:[3e3,6e3],sad:[4e3,8e3],laughing:[2500,5e3],scared:[1200,3e3],playful:[2e3,4500],celebrate:[2200,4500],orbit:null,radar:null,progress:null,spawning:null,humming:[4e3,8e3],dictating:null,sending:null,receiving:null,uploading:null,writing:null,alerting:null,\"powering-down\":null};\nexport { websiteExport10 as BLINK_CADENCE };\nexport { j as CELEBRATORY_STATES };\nconst websiteExport11={sleeping:[6e3,1e4],waking:[800,800],idle:[9e3,16e3],listening:[2800,5e3],thinking:[2e3,3600],searching:[1e3,1800],working:[1800,3200],excited:[1100,2e3],surprised:[2500,4e3],suspicious:[2600,4500],angry:[2200,3800],drowsy:[4e3,8e3],happy:[2500,4500],curious:[1800,3200],confused:[2200,3800],bored:[3500,6e3],proud:[3500,6e3],shy:[3e3,5500],sad:[4e3,7e3],laughing:[1200,2400],scared:[900,1800],playful:[1500,3e3],celebrate:[1400,2600],orbit:[4e3,8e3],radar:[4e3,8e3],progress:[4e3,8e3],spawning:[1200,1200],humming:[5e3,9e3],dictating:[4e3,8e3],sending:[4e3,8e3],receiving:[4e3,8e3],uploading:[4e3,8e3],writing:[4e3,8e3],alerting:[2e3,3600],\"powering-down\":[6e3,9e3]};\nexport { websiteExport11 as EXPRESSION_CADENCE };\nconst websiteExport12={sleeping:[13,22,4],waking:[13],idle:[0,8],listening:[10,1,19],thinking:[8,16,14,17,5],searching:[15,9,3,20,12,18],working:[7,16,11,10],excited:[2,17,21,3,11],surprised:[3,21],suspicious:[14,5,23],angry:[7,16],drowsy:[4,22,13],happy:[2,11,17,19],curious:[3,21,0,15],confused:[14,5,8],bored:[4,22,0],proud:[15,8,2],shy:[0,24,13],sad:[4,13,22],laughing:[2,11,17],scared:[3,21],playful:[2,17,11,8],celebrate:[2,8,17],orbit:[0,8],radar:[0,8],progress:[0,8],spawning:[3,0],humming:[0,8],dictating:[10,1,19],sending:[0,8],receiving:[19,0,8],uploading:[15,9,8],writing:[15,9],alerting:[3,21],\"powering-down\":[13,22]};\nexport { websiteExport12 as EXPRESSION_POOLS };\nexport { H as GROK_BOT_STATES };\nconst websiteExport13=1500;\nexport { websiteExport13 as MORPH_REST_MS };\nconst websiteExport14={progress:2500,spawning:2e3};\nexport { websiteExport14 as MORPH_SHOT_MS };\nexport { B as ONESHOT_MORPHS };\nexport { F as PLAYFUL_STATES };"
+        }
+      ],
+      "exports": [
+        "EYE_HALF",
+        "HEAD",
+        "HEAD_C",
+        "STAR_GOLD",
+        "STAR_PATH",
+        "capRingSize",
+        "centroid",
+        "lerpEyeRing",
+        "lerpRing",
+        "matchEyeStroke",
+        "matchRightEyeSize",
+        "neutralizeRingPairCant",
+        "ringPath",
+        "CIRCLE_RING",
+        "GROK_BOT_SHAPES",
+        "SHAPES",
+        "ringOutline",
+        "BLINK_CADENCE",
+        "CELEBRATORY_STATES",
+        "EXPRESSION_CADENCE",
+        "EXPRESSION_POOLS",
+        "GROK_BOT_STATES",
+        "MORPH_REST_MS",
+        "MORPH_SHOT_MS",
+        "ONESHOT_MORPHS",
+        "PLAYFUL_STATES"
+      ],
+      "imports": []
+    },
+    {
+      "source": "reference/website/motion/2uycf32_3nw2k.js",
+      "sourceUrl": "https://x.ai/_next/static/chunks/2uycf32_3nw2k.js?dpl=dc5f6366432c4e640dd538504ce744d0297bf6cb",
+      "sourceSha256": "d77223ea7ff7d8f50e1cc207119c96ba31448758800c426d3c2b12acbde96e68",
+      "target": "src/website-avatar-still.generated.js",
+      "segments": [
+        {
+          "start": 415,
+          "end": 428,
+          "charOffset": 415,
+          "sha256": "5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255",
+          "operation": "retain"
+        },
+        {
+          "start": 428,
+          "end": 446,
+          "charOffset": 428,
+          "sha256": "e8035b01ce9f2d2d1db7d9a534aa54a2471db968dd8d9b416e007a1627604050",
+          "operation": "replace-module-import",
+          "replacement": "import * as t from 'react/jsx-runtime';"
+        },
+        {
+          "start": 446,
+          "end": 675,
+          "charOffset": 446,
+          "sha256": "742437559edb54c1fe275286bddb81951e444bddd4f9319b0960dc944620cc2c",
+          "operation": "remove-telemetry",
+          "replacement": "var a;"
+        },
+        {
+          "start": 675,
+          "end": 849,
+          "charOffset": 675,
+          "sha256": "877b18303cc813715911510f25b00cb416550fa62e20c9e2d689d05fdcbe83bd",
+          "operation": "retain"
+        },
+        {
+          "start": 849,
+          "end": 929,
+          "charOffset": 849,
+          "sha256": "70027704baa68255726f8c81f10d09f21eadcc97f35ed820cd090a1c4e7f553a",
+          "operation": "retain"
+        },
+        {
+          "start": 929,
+          "end": 1158,
+          "charOffset": 929,
+          "sha256": "c192296bcc4172cb3e7fd30c96f04352bac6a97c167951d508245131a7fcf22c",
+          "operation": "remove-telemetry",
+          "replacement": "var l;"
+        },
+        {
+          "start": 1158,
+          "end": 37926,
+          "charOffset": 1158,
+          "sha256": "3bde513798d013b3dfa99ccc3759708ca87fee86b60b0d36c38b1f4e88d56a6b",
+          "operation": "retain"
+        },
+        {
+          "start": 37926,
+          "end": 38155,
+          "charOffset": 37926,
+          "sha256": "73dd4be321291bf2993cb787e2488813332f15b209bc9ef9e8a1e614df0ffdbc",
+          "operation": "remove-telemetry",
+          "replacement": "var o;"
+        },
+        {
+          "start": 38155,
+          "end": 38368,
+          "charOffset": 38155,
+          "sha256": "19475d63123b018183465541dd93a2f639ce13876067210f8031a8f23f974032",
+          "operation": "retain"
+        },
+        {
+          "start": 38368,
+          "end": 38597,
+          "charOffset": 38368,
+          "sha256": "d9f27740bec808e90dcfdf93adf2c4af37405c7f8bc0fe2ed0fac937013c7b6e",
+          "operation": "remove-telemetry",
+          "replacement": "var c;"
+        },
+        {
+          "start": 38597,
+          "end": 39105,
+          "charOffset": 38597,
+          "sha256": "916d216ff255a59ca768009407ebaff3dc6508e48be9981d16dd274ed5344fa4",
+          "operation": "retain"
+        },
+        {
+          "start": 39105,
+          "end": 39334,
+          "charOffset": 39105,
+          "sha256": "1cb1fb916edd30641949d268361ccedbcc12c086e9f1e03b37203993aed58cd9",
+          "operation": "remove-telemetry",
+          "replacement": "var f;"
+        },
+        {
+          "start": 39334,
+          "end": 39491,
+          "charOffset": 39334,
+          "sha256": "e5357bcf39cfb8ca4b46c75d79cf0d098860723fd74c2e0006ac6308f6923011",
+          "operation": "retain"
+        },
+        {
+          "start": 39491,
+          "end": 39529,
+          "charOffset": 39491,
+          "sha256": "c890d877c297b4a8390a6a922959b21dac9832f4aa773194c0da9c2a97e4d1ad",
+          "operation": "retain"
+        },
+        {
+          "start": 39529,
+          "end": 39758,
+          "charOffset": 39529,
+          "sha256": "40ab9768611d0d11fc5e224c9152ff80cfba6ee4a7223a927e9219d35a37c25f",
+          "operation": "remove-telemetry",
+          "replacement": "var p;"
+        },
+        {
+          "start": 39758,
+          "end": 39826,
+          "charOffset": 39758,
+          "sha256": "ef66873d191b68775857cba4f3c99435e0fefe4acd100f4a8876bfe10d073e0b",
+          "operation": "retain"
+        },
+        {
+          "start": 39826,
+          "end": 40757,
+          "charOffset": 39826,
+          "sha256": "d9621e3b4de481e1c17975b6df2f967398eafdbe36dbc39f46dc69421083c3de",
+          "operation": "retain"
+        },
+        {
+          "start": 40757,
+          "end": 42893,
+          "charOffset": 40757,
+          "sha256": "6df775761cebe608ac73f19a2fa2d874c25f6f9dbb5531bfa5f65e58f19a92f5",
+          "operation": "retain"
+        },
+        {
+          "start": 42893,
+          "end": 43006,
+          "charOffset": 42893,
+          "sha256": "c7fb9d82c3266febe944a8f02148bd66b41264ba162dd6a122cea29527fc8876",
+          "operation": "retain"
+        },
+        {
+          "start": 43006,
+          "end": 50417,
+          "charOffset": 43006,
+          "sha256": "4cb271461e3066e456905c2ecd867199acf5317d13c3bd08353e07a1dd36b11a",
+          "operation": "retain"
+        },
+        {
+          "start": 50417,
+          "end": 50466,
+          "charOffset": 50417,
+          "sha256": "a205e1c3c952a63d4f8c38a7fa82f715c87e6358470521e8f30937c73a4ad51b",
+          "operation": "replace-module-export",
+          "replacement": "export { B as GROK_BOT_SHAPES };\nexport { I as SHAPES };"
+        },
+        {
+          "start": 50466,
+          "end": 50695,
+          "charOffset": 50466,
+          "sha256": "2d4c0946192c1ff9405da7a296d476d4f6a157e00e2a7810024686e720888207",
+          "operation": "remove-telemetry",
+          "replacement": "var j;"
+        },
+        {
+          "start": 50695,
+          "end": 50736,
+          "charOffset": 50695,
+          "sha256": "6e680e39d1d58270de43516f26aeff4f33465875af4a0e6cd453922af254d160",
+          "operation": "retain"
+        },
+        {
+          "start": 50736,
+          "end": 50936,
+          "charOffset": 50736,
+          "sha256": "4c2411a0927589a194d4563e2b4d6ded4969c02dbc9a427ec1fa79a6cfd10c3d",
+          "operation": "retain"
+        },
+        {
+          "start": 50936,
+          "end": 51089,
+          "charOffset": 50936,
+          "sha256": "aeeb457b302de0c20c4adcd4e84c38a548f25833b58170951dc086fe4012a6bd",
+          "operation": "retain"
+        },
+        {
+          "start": 51089,
+          "end": 51318,
+          "charOffset": 51089,
+          "sha256": "896ec54cbf7887670bbc2736361045a6e843babd33425ec896e33bf4caa9a0b8",
+          "operation": "remove-telemetry",
+          "replacement": "var q;"
+        },
+        {
+          "start": 51318,
+          "end": 54258,
+          "charOffset": 51318,
+          "sha256": "b42d667a2e5af4f1b0f843281e8ee479e11660c86f233f34b9d0c97148174ef3",
+          "operation": "replace-module-export",
+          "replacement": "const websiteExport0=function({size:e,shape:a=\"blob\",className:l,headFill:o,eyeFill:c}){let d=function(e){var t;let a={fill:\"currentColor\",faceTune:s,uniformEyes:!0,eyeScale:(t=e,(M.blob??1)/(M[t]??1)),pose:h,poseHome:i,scale:(M[e]??1)*u},l=n[0],[o,c]=function(e,t){var a,l;let o=I[e],s=t.faceTune,h=!0===t.uniformEyes,i={x:o.face.x,y:o.face.y,sx:o.face.sx*(s?.gap??1),sy:o.face.sy*(s?.height??1),eye:o.face.eye*(s?.size??1),leftDX:o.face.leftDX??0},M=t.pose&&t.poseHome?(a=S(t.pose.turn,t.pose.tilt,t.pose.roll),l=S(t.poseHome.turn,t.poseHome.tilt,t.poseHome.roll),[a[0]*l[0]+a[1]*l[1]+a[2]*l[2],a[0]*l[3]+a[1]*l[4]+a[2]*l[5],a[0]*l[6]+a[1]*l[7]+a[2]*l[8],a[3]*l[0]+a[4]*l[1]+a[5]*l[2],a[3]*l[3]+a[4]*l[4]+a[5]*l[5],a[3]*l[6]+a[4]*l[7]+a[5]*l[8],a[6]*l[0]+a[7]*l[1]+a[8]*l[2],a[6]*l[3]+a[7]*l[4]+a[8]*l[5],a[6]*l[6]+a[7]*l[7]+a[8]*l[8]]):null,u=n[0],c=[u[0],u[1]],d=[r(c[0]),r(c[1])],y=0,f=0;for(let e of c[0])y=Math.max(y,Math.abs(e[0]-d[0][0]));for(let e of c[1])f=Math.max(f,Math.abs(e[0]-d[1][0]));let b=h?i.leftDX??0:0,p=Math.abs(d[1][0]-(d[0][0]+b))*i.sx,g=y+f>.5?O((p-5*!h)/(y+f),.35,4):4,m=(h?1:i.eye)*O(t.eyeScale??1,.25,4),w=Math.min(O(m,.2,2),g),x=Math.min(w*O(s?.eyeWidth??1,.2,3),g),v=w*O(s?.eyeHeight??1,.2,3),_=[];for(let e=0;e<2;e++){let t=c[e],[a,r]=d[e],l=a+(0===e?b:0),n=(l-114.2705)*i.sx,s=O(114.2705+i.y+(r-114.2705)*i.sy,o.top+2,o.bottom-2),h=1,u=0,y=0,f=1;if(M){let e=(l-114.2705)/114.2705,t=(114.2705-r)/114.2705,a=Math.sqrt(Math.max(0,1-e*e-t*t))||.02,c=M[0]*e+M[1]*t+M[2]*a,d=M[3]*e+M[4]*t+M[5]*a;n=114.2705*c*i.sx,s=O(114.2705+i.y-114.2705*d*i.sy,o.top+2,o.bottom-2);let b=-t*e,p=1-t*t,g=-t*a,m=Math.hypot(b,p,g);m<1e-6?(b=0,p=0,g=1):(b/=m,p/=m,g/=m);let w=t*g-a*p,x=a*b-e*g,v=e*p-t*b,_=M[0]*b+M[1]*p+M[2]*g,P=M[3]*b+M[4]*p+M[5]*g,k=M[0]*w+M[1]*x+M[2]*v,$=M[3]*w+M[4]*x+M[5]*v,A=-x,C=b,F=-p,E=w*F-C*A||1e-6,I=F/E,B=-C/E,j=-A/E,S=w/E,K=-$,q=-P;h=k*I+_*j,y=k*B+_*S,u=K*I+q*j,f=K*B+q*S}let p=h*x,g=u*x,m=y*v,w=f*v,P=Math.max(Math.hypot(h,u),.02)*x,k=Math.max(Math.hypot(y,f),.02)*v,$=21*k+2,A=O(s,o.top+$,o.bottom-$),C=-1/0,F=1/0;for(let e=0;e<t.length;e+=2){let l=t[e],n=(l[0]-a)*P,[s,h]=o.spanAt(A+(l[1]-r)*k);s-n>C&&(C=s-n),h-n<F&&(F=h-n)}let E=114.2705+i.x+n,I=C<=F?O(E,C,F):(C+F)/2;_.push({px:I,py:A,a:p,b:g,c:m,d:w,cx:a,cy:r})}return[_[0],_[1]]}(e,a);return{body:I[e].path,left:K(l[0],o),right:K(l[1],c),scale:a.scale??1}}(a),y=1!==d.scale?`translate(114.2705 114.2705) scale(${d.scale}) translate(-114.2705 -114.2705)`:void 0;return(0,t.jsx)(\"svg\",{\"aria-hidden\":\"true\",className:l?`grok-bot-mark ${l}`:\"grok-bot-mark\",style:e?{width:e,height:e}:void 0,viewBox:\"-15 -15 259 259\",xmlns:\"http://www.w3.org/2000/svg\",children:(0,t.jsxs)(\"g\",{transform:y,children:[(0,t.jsx)(\"path\",{className:\"grok-bot-mark__head\",d:d.body,...o?{fill:o}:{}}),(0,t.jsx)(\"path\",{className:\"grok-bot-mark__eye\",d:d.left,...c?{fill:c}:{}}),(0,t.jsx)(\"path\",{className:\"grok-bot-mark__eye\",d:d.right,...c?{fill:c}:{}})]})})};\nexport { websiteExport0 as GrokBotMark };"
+        }
+      ],
+      "exports": [
+        "GROK_BOT_SHAPES",
+        "SHAPES",
+        "GrokBotMark"
+      ],
+      "imports": [
+        "react/jsx-runtime"
+      ]
+    }
+  ],
+  "wrapperEvidence": {
+    "path": "reference/website/motion/2qxgawzx_hxyu.js",
+    "sha256": "15a65401891332b194382798db59fcd3a8600ac378a72e17b9537d6ec1e866fc",
+    "url": "https://x.ai/_next/static/chunks/2qxgawzx_hxyu.js?dpl=dc5f6366432c4e640dd538504ce744d0297bf6cb"
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "website": {
+    "states": [
+      "sleeping",
+      "waking",
+      "idle",
+      "listening",
+      "thinking",
+      "searching",
+      "working",
+      "excited",
+      "surprised",
+      "suspicious",
+      "angry",
+      "drowsy",
+      "happy",
+      "curious",
+      "confused",
+      "bored",
+      "proud",
+      "shy",
+      "sad",
+      "laughing",
+      "scared",
+      "playful",
+      "celebrate",
+      "orbit",
+      "radar",
+      "progress",
+      "spawning",
+      "humming",
+      "dictating",
+      "writing",
+      "sending",
+      "receiving",
+      "uploading",
+      "alerting",
+      "powering-down"
+    ],
+    "shapes": [
+      "blob",
+      "pebble",
+      "bean",
+      "egg",
+      "squircle",
+      "square",
+      "tablet",
+      "capsule",
+      "cylinder",
+      "hex",
+      "gem",
+      "crystal",
+      "wedge",
+      "shield",
+      "dome",
+      "arch",
+      "horseshoe",
+      "cloud",
+      "teardrop",
+      "leaf",
+      "clover",
+      "house",
+      "heart",
+      "sparkle",
+      "star6"
+    ],
+    "blinkCadenceMs": {
+      "sleeping": null,
+      "waking": null,
+      "idle": [
+        6000,
+        14000
+      ],
+      "listening": [
+        3000,
+        7000
+      ],
+      "thinking": [
+        3500,
+        7000
+      ],
+      "searching": [
+        1600,
+        4000
+      ],
+      "working": [
+        2800,
+        5500
+      ],
+      "excited": [
+        2000,
+        4000
+      ],
+      "surprised": [
+        1800,
+        3500
+      ],
+      "suspicious": [
+        4500,
+        8000
+      ],
+      "angry": [
+        3500,
+        7000
+      ],
+      "drowsy": null,
+      "happy": [
+        2500,
+        5000
+      ],
+      "curious": [
+        2500,
+        5500
+      ],
+      "confused": [
+        2800,
+        5500
+      ],
+      "bored": [
+        4000,
+        8000
+      ],
+      "proud": [
+        3500,
+        7000
+      ],
+      "shy": [
+        3000,
+        6000
+      ],
+      "sad": [
+        4000,
+        8000
+      ],
+      "laughing": [
+        2500,
+        5000
+      ],
+      "scared": [
+        1200,
+        3000
+      ],
+      "playful": [
+        2000,
+        4500
+      ],
+      "celebrate": [
+        2200,
+        4500
+      ],
+      "orbit": null,
+      "radar": null,
+      "progress": null,
+      "spawning": null,
+      "humming": [
+        4000,
+        8000
+      ],
+      "dictating": null,
+      "sending": null,
+      "receiving": null,
+      "uploading": null,
+      "writing": null,
+      "alerting": null,
+      "powering-down": null
+    },
+    "expressionCadenceMs": {
+      "sleeping": [
+        6000,
+        10000
+      ],
+      "waking": [
+        800,
+        800
+      ],
+      "idle": [
+        9000,
+        16000
+      ],
+      "listening": [
+        2800,
+        5000
+      ],
+      "thinking": [
+        2000,
+        3600
+      ],
+      "searching": [
+        1000,
+        1800
+      ],
+      "working": [
+        1800,
+        3200
+      ],
+      "excited": [
+        1100,
+        2000
+      ],
+      "surprised": [
+        2500,
+        4000
+      ],
+      "suspicious": [
+        2600,
+        4500
+      ],
+      "angry": [
+        2200,
+        3800
+      ],
+      "drowsy": [
+        4000,
+        8000
+      ],
+      "happy": [
+        2500,
+        4500
+      ],
+      "curious": [
+        1800,
+        3200
+      ],
+      "confused": [
+        2200,
+        3800
+      ],
+      "bored": [
+        3500,
+        6000
+      ],
+      "proud": [
+        3500,
+        6000
+      ],
+      "shy": [
+        3000,
+        5500
+      ],
+      "sad": [
+        4000,
+        7000
+      ],
+      "laughing": [
+        1200,
+        2400
+      ],
+      "scared": [
+        900,
+        1800
+      ],
+      "playful": [
+        1500,
+        3000
+      ],
+      "celebrate": [
+        1400,
+        2600
+      ],
+      "orbit": [
+        4000,
+        8000
+      ],
+      "radar": [
+        4000,
+        8000
+      ],
+      "progress": [
+        4000,
+        8000
+      ],
+      "spawning": [
+        1200,
+        1200
+      ],
+      "humming": [
+        5000,
+        9000
+      ],
+      "dictating": [
+        4000,
+        8000
+      ],
+      "sending": [
+        4000,
+        8000
+      ],
+      "receiving": [
+        4000,
+        8000
+      ],
+      "uploading": [
+        4000,
+        8000
+      ],
+      "writing": [
+        4000,
+        8000
+      ],
+      "alerting": [
+        2000,
+        3600
+      ],
+      "powering-down": [
+        6000,
+        9000
+      ]
+    },
+    "expressionPools": {
+      "sleeping": [
+        13,
+        22,
+        4
+      ],
+      "waking": [
+        13
+      ],
+      "idle": [
+        0,
+        8
+      ],
+      "listening": [
+        10,
+        1,
+        19
+      ],
+      "thinking": [
+        8,
+        16,
+        14,
+        17,
+        5
+      ],
+      "searching": [
+        15,
+        9,
+        3,
+        20,
+        12,
+        18
+      ],
+      "working": [
+        7,
+        16,
+        11,
+        10
+      ],
+      "excited": [
+        2,
+        17,
+        21,
+        3,
+        11
+      ],
+      "surprised": [
+        3,
+        21
+      ],
+      "suspicious": [
+        14,
+        5,
+        23
+      ],
+      "angry": [
+        7,
+        16
+      ],
+      "drowsy": [
+        4,
+        22,
+        13
+      ],
+      "happy": [
+        2,
+        11,
+        17,
+        19
+      ],
+      "curious": [
+        3,
+        21,
+        0,
+        15
+      ],
+      "confused": [
+        14,
+        5,
+        8
+      ],
+      "bored": [
+        4,
+        22,
+        0
+      ],
+      "proud": [
+        15,
+        8,
+        2
+      ],
+      "shy": [
+        0,
+        24,
+        13
+      ],
+      "sad": [
+        4,
+        13,
+        22
+      ],
+      "laughing": [
+        2,
+        11,
+        17
+      ],
+      "scared": [
+        3,
+        21
+      ],
+      "playful": [
+        2,
+        17,
+        11,
+        8
+      ],
+      "celebrate": [
+        2,
+        8,
+        17
+      ],
+      "orbit": [
+        0,
+        8
+      ],
+      "radar": [
+        0,
+        8
+      ],
+      "progress": [
+        0,
+        8
+      ],
+      "spawning": [
+        3,
+        0
+      ],
+      "humming": [
+        0,
+        8
+      ],
+      "dictating": [
+        10,
+        1,
+        19
+      ],
+      "sending": [
+        0,
+        8
+      ],
+      "receiving": [
+        19,
+        0,
+        8
+      ],
+      "uploading": [
+        15,
+        9,
+        8
+      ],
+      "writing": [
+        15,
+        9
+      ],
+      "alerting": [
+        3,
+        21
+      ],
+      "powering-down": [
+        13,
+        22
+      ]
+    },
+    "morphShotMs": {
+      "progress": 2500,
+      "spawning": 2000
+    },
+    "morphRestMs": 1500
+  },
+  "dmg": {
+    "states": {
+      "idle": {
+        "clips": [
+          "Idle_B",
+          "Idle_B",
+          "Idle_D",
+          "Idle_B",
+          "Idle_A"
+        ],
+        "compactClips": [
+          "Idle_B"
+        ]
+      },
+      "listening": {
+        "clips": [
+          "Idle_D"
+        ],
+        "face": "calm"
+      },
+      "thinking": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "thinking"
+      },
+      "streaming": {
+        "clips": [
+          "Streaming_A",
+          "Streaming_B",
+          "Streaming_C"
+        ]
+      },
+      "searching": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "radar"
+      },
+      "reading": {
+        "clips": [
+          "Working_A",
+          "Working_B",
+          "Working_C",
+          "Working_D",
+          "Working_E",
+          "Working_F"
+        ]
+      },
+      "working": {
+        "clips": [
+          "Working_A",
+          "Working_B",
+          "Working_C",
+          "Working_D",
+          "Working_E",
+          "Working_F"
+        ]
+      },
+      "coding": {
+        "clips": [
+          "Working_A",
+          "Working_B",
+          "Working_C",
+          "Working_D",
+          "Working_E",
+          "Working_F"
+        ]
+      },
+      "running": {
+        "clips": [
+          "Working_A",
+          "Working_B",
+          "Working_C",
+          "Working_D",
+          "Working_E",
+          "Working_F"
+        ]
+      },
+      "computing": {
+        "clips": [
+          "Working_A",
+          "Working_B",
+          "Working_C",
+          "Working_D",
+          "Working_E",
+          "Working_F"
+        ]
+      },
+      "controlling": {
+        "clips": [
+          "Working_A",
+          "Working_B",
+          "Working_C",
+          "Working_D",
+          "Working_E",
+          "Working_F"
+        ]
+      },
+      "waiting": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "orbit"
+      },
+      "blocked": {
+        "clips": [
+          "Blocked_A"
+        ],
+        "next": "drowsy",
+        "holdSeconds": 120
+      },
+      "finished": {
+        "clips": [
+          "Done_B",
+          "Done_A"
+        ],
+        "face": "happy",
+        "next": "idle"
+      },
+      "failed": {
+        "clips": [
+          "Blocked_B"
+        ],
+        "next": "idle"
+      },
+      "sleeping": {
+        "clips": [
+          "Idle_B"
+        ],
+        "face": "sleepy"
+      },
+      "waking": {
+        "clips": [
+          "Idle_B"
+        ],
+        "face": "surprised",
+        "next": "idle",
+        "holdSeconds": 1.6
+      },
+      "happy": {
+        "clips": [
+          "Done_A"
+        ]
+      },
+      "excited": {
+        "clips": [
+          "Done_C"
+        ]
+      },
+      "laughing": {
+        "clips": [
+          "Done_B"
+        ]
+      },
+      "proud": {
+        "clips": [
+          "Marketing_B"
+        ]
+      },
+      "curious": {
+        "clips": [
+          "Working_B"
+        ],
+        "face": "inspecting"
+      },
+      "playful": {
+        "clips": [
+          "Bodymoves_A"
+        ]
+      },
+      "shy": {
+        "clips": [
+          "Idle_D"
+        ],
+        "face": "calm"
+      },
+      "surprised": {
+        "clips": [
+          "Idle_B"
+        ],
+        "face": "surprised"
+      },
+      "suspicious": {
+        "clips": [
+          "Idle_D"
+        ],
+        "face": "squinted"
+      },
+      "angry": {
+        "clips": [
+          "Blocked_A"
+        ],
+        "face": "squinted"
+      },
+      "confused": {
+        "clips": [
+          "Blocked_A"
+        ]
+      },
+      "sad": {
+        "clips": [
+          "Blocked_B"
+        ]
+      },
+      "drowsy": {
+        "clips": [
+          "Blocked_C"
+        ]
+      },
+      "bored": {
+        "clips": [
+          "Idle_B"
+        ],
+        "face": "sleepy"
+      },
+      "scared": {
+        "clips": [
+          "Idle_D"
+        ],
+        "face": "surprised"
+      },
+      "celebrate": {
+        "clips": [
+          "Rotation_A"
+        ],
+        "face": "happy"
+      },
+      "approving": {
+        "clips": [
+          "Rotation_C"
+        ],
+        "next": "idle"
+      },
+      "orbit": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "orbit"
+      },
+      "radar": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "radar"
+      },
+      "progress": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "progress"
+      },
+      "spawning": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "spawning"
+      },
+      "loading": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "progress"
+      },
+      "dictating": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "dictating"
+      },
+      "sending": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "sending"
+      },
+      "receiving": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "receiving"
+      },
+      "uploading": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "uploading"
+      },
+      "writing": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "writing"
+      },
+      "alerting": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "alerting"
+      },
+      "bouncing": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "bouncing"
+      },
+      "powering-down": {
+        "clips": [
+          "Idle_B"
+        ],
+        "morph": "powering-down"
+      },
+      "humming": {
+        "clips": [
+          "Idle_B"
+        ],
+        "face": "calm"
+      },
+      "notifying": {
+        "clips": [
+          "Done_B"
+        ],
+        "face": "surprised"
+      },
+      "dragging": {
+        "clips": [
+          "Idle_B"
+        ],
+        "face": "surprised"
+      },
+      "logo": {
+        "clips": [
+          "Logo_A",
+          "Logo_B"
+        ]
+      },
+      "showcase": {
+        "clips": [
+          "Marketing_A",
+          "Marketing_B",
+          "Marketing_C",
+          "Marketing_D"
+        ]
+      },
+      "turntable": {
+        "clips": [
+          "Rotation_B"
+        ]
+      }
+    }
+  }
+}

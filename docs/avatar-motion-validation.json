@@ -1,0 +1,89 @@
+{
+  "url": "http://127.0.0.1:8766/examples/avatar-motion.html",
+  "state": "idle",
+  "sampleTimes": [
+    "2026-10-11T08:30:38.614Z",
+    "2026-10-11T08:31:17.041Z"
+  ],
+  "note": "No avatar state, shape or pause interaction between the two idle samples.",
+  "avatars": [
+    {
+      "index": 0,
+      "shape": "blob",
+      "modes": [
+        "playing",
+        "playing"
+      ],
+      "svgSha256": [
+        "5baa737b9c2bb82127106759aa44cb08d2c55a5eebf4d8375bf6d2e00ebd1098",
+        "90ec9155cd8e38ddd1148b950812e78b64a813a9ef4f582e083552cc007eef2d"
+      ],
+      "changed": true
+    },
+    {
+      "index": 1,
+      "shape": "blob",
+      "modes": [
+        "playing",
+        "playing"
+      ],
+      "svgSha256": [
+        "42b7a3e9d149c83cd2dc1ed6fbf2dd68cafcf74526af713ee0fc5d07d9498999",
+        "2955205abece58ace7fc64dbdeb9dc82b1f8348b28c87983cb2d85f8f31a6aaf"
+      ],
+      "changed": true
+    },
+    {
+      "index": 2,
+      "shape": "wedge",
+      "modes": [
+        "playing",
+        "playing"
+      ],
+      "svgSha256": [
+        "1d7972dd4c55527837d7712e5580a40267c740a5117bdbe8d3f959d7a97437ef",
+        "dceb637599cabc6040c6bc54095c9a8fd7aef231b844f740df83043cfe93e0a1"
+      ],
+      "changed": true
+    },
+    {
+      "index": 3,
+      "shape": "gem",
+      "modes": [
+        "playing",
+        "playing"
+      ],
+      "svgSha256": [
+        "4f8b05b521baafae591bfd11003250d33b3d05c69f450bc3ec289a280aaff246",
+        "3e8345a359dbb7a0122257367805eaf9bb89113e5543e2e705fc6d0eb5db613a"
+      ],
+      "changed": true
+    },
+    {
+      "index": 4,
+      "shape": "blob",
+      "modes": [
+        "playing",
+        "playing"
+      ],
+      "svgSha256": [
+        "75d151885d317e86c853d8bce5fc23af0d5c2fa6b325c704e68fe4e45dfa85a9",
+        "c66c875411553a5505906538c9133fa3e021ada3aa830faae3462ef933cce4dc"
+      ],
+      "changed": true
+    },
+    {
+      "index": 5,
+      "shape": "blob",
+      "modes": [
+        "playing",
+        "playing"
+      ],
+      "svgSha256": [
+        "b7a44a41808534b27bc7a0a1ff0c6e10c0750caa72cb58727ed7c3be618f4b35",
+        "180d2baa678b7737ff68e010f861ad3ab7853078feafd4866645f14abf83ef8b"
+      ],
+      "changed": true
+    }
+  ]
+}
