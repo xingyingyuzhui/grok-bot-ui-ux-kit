@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Grok Bot · 书写头像参考</title>
+  <link rel="stylesheet" href="./writing-avatar.css">
+</head>
+<body>
+  <nav><a href="./avatar-motion.html">← 全部头像状态</a><a href="../docs/avatar-reference.md">参考图分析与接入</a></nav>
+  <main>
+    <h1>书写中的 Bot</h1>
+    <p class="intro">按两张用户参考图搭建。可对照官网与 DMG 原头像子集；卡片、圆点和文案是独立的展示层。</p>
+    <div class="reference-scenes">
+      <section class="card-scene" aria-label="Bot 卡片参考">
+        <div class="reference-card">
+          <span id="card-avatar" class="writing-avatar" aria-hidden="true"></span>
+          <span id="online-dot" class="online-dot" role="img" aria-label="在线"></span>
+          <strong>小黄二号</strong>
+        </div>
+      </section>
+      <section class="message-scene" aria-label="聊天状态参考">
+        <p class="reply-bubble">还在排查，我看一下最新进度。</p>
+        <div class="activity-row">
+          <span id="message-avatar" class="writing-avatar" aria-hidden="true"></span>
+          <span id="activity-label" role="status">正在记下来</span>
+        </div>
+      </section>
+    </div>
+    <div class="reference-controls">
+      <label>来源 <select id="reference-source"><option value="website">官网原组件</option><option value="dmg">DMG 0.68.1 原引擎</option></select></label>
+      <label>状态 <select id="reference-state">
+        <option value="writing">writing · 书写笔尖</option>
+        <option value="alerting">alerting · 提醒感叹号</option>
+        <option value="thinking">thinking · 思考圆点</option>
+        <option value="idle">idle · 普通头像</option>
+      </select></label>
+      <label><input id="reference-online" type="checkbox" checked>在线圆点</label>
+      <label><input id="reference-paused" type="checkbox">静态回退</label>
+    </div>
+    <p class="intro">书写动画每 2.5 秒循环，包含落笔、横向移动、抬笔返回。截图只是其中一帧；状态文字需与头像同步更新。</p>
+  </main>
+  <script type="module" src="./writing-avatar.js"></script>
+</body>
+</html>

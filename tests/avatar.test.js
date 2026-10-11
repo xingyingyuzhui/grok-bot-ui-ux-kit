@@ -198,6 +198,28 @@ test("website component moves, blinks, morphs, pauses and releases RAF/media lis
       ),
       "thinking must show morph particles",
     );
+    await act(() => avatar.setState("writing"));
+    tick(120);
+    const glyphs = () => [...el.querySelector("svg").children].filter(
+      (node) => node.tagName.toLowerCase() === "path" && !node.classList.length,
+    );
+    const writingShaft = glyphs()[0];
+    assert.equal(writingShaft.style.display, "");
+    assert.ok(
+      [...el.querySelectorAll(".grok-bot-mark__eye")].every(
+        (eye) => eye.style.display === "none",
+      ),
+      "writing intentionally hides eyes after morphing into a pen tip",
+    );
+    const penTransform = writingShaft.getAttribute("transform");
+    assert.ok(Number(penTransform.match(/rotate\(([^)]+)\)/)[1]) > 10);
+    tick(30);
+    assert.notEqual(writingShaft.getAttribute("transform"), penTransform);
+    await act(() => avatar.setState("alerting"));
+    tick(120);
+    assert.equal(glyphs()[0].style.display, "none");
+    assert.equal(glyphs()[2].style.display, "");
+    assert.notEqual(glyphs()[2].getAttribute("d"), writingShaft.getAttribute("d"));
     for (const shape of avatarShapes) {
       await act(() => avatar.setShape(shape));
       tick(60);

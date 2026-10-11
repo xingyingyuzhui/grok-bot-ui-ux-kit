@@ -4,6 +4,8 @@
 
 [动态头像画廊](../examples/avatar-motion.html) 可切换全部 35 种官网状态、25 种轮廓，并触发转身、弹跳与庆祝粒子。[主产品预览](../index.html) 默认循环 idle 动画；Appearance → Avatar animation 可关闭。系统减少动态效果、页面隐藏、头像离开视口时，适配器卸载动画组件，显示静态姿态并取消 RAF；恢复时重新启动，因此时间相位会重置。这是本仓库的节能适配选择。
 
+两张补充参考图对应的倾斜笔杆与水滴笔尖见 [书写头像分析](avatar-reference.md) 和 [可运行示例](../examples/writing-avatar.html)：使用 writing，不是 alerting；在线圆点由展示层单独渲染。
+
 ![六个 Bot 的动态头像参考（截图为单帧）](screenshots/avatar-motion-light.jpg)
 
 ## 两套来源
