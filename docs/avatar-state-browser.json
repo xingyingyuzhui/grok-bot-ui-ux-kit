@@ -1,0 +1,777 @@
+{
+  "title": "Grok Bot · 全状态对照",
+  "url": "http://127.0.0.1:8766/examples/avatar-states.html",
+  "rows": [
+    {
+      "state": "thinking",
+      "data": [
+        {
+          "source": "website",
+          "state": "thinking",
+          "active": "thinking",
+          "motion": "playing",
+          "circles": 0,
+          "headCircles": [
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "thinking",
+          "active": "thinking",
+          "motion": "playing",
+          "circles": 2,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "orbit",
+      "data": [
+        {
+          "source": "website",
+          "state": "orbit",
+          "active": "orbit",
+          "motion": "playing",
+          "circles": 3,
+          "headCircles": [
+            {
+              "r": "11.38",
+              "display": ""
+            },
+            {
+              "r": "6.00",
+              "display": ""
+            },
+            {
+              "r": "6.00",
+              "display": ""
+            },
+            {
+              "r": "6.00",
+              "display": "none"
+            },
+            {
+              "r": "10.19",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "orbit",
+          "active": "orbit",
+          "motion": "playing",
+          "circles": 5,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "radar",
+      "data": [
+        {
+          "source": "website",
+          "state": "radar",
+          "active": "radar",
+          "motion": "playing",
+          "circles": 3,
+          "headCircles": [
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "radar",
+          "active": "radar",
+          "motion": "playing",
+          "circles": 3,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "progress",
+      "data": [
+        {
+          "source": "website",
+          "state": "progress",
+          "active": "progress",
+          "motion": "playing",
+          "circles": 2,
+          "headCircles": [
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "progress",
+          "active": "progress",
+          "motion": "playing",
+          "circles": 2,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "spawning",
+      "data": [
+        {
+          "source": "website",
+          "state": "spawning",
+          "active": "spawning",
+          "motion": "playing",
+          "circles": 3,
+          "headCircles": [
+            {
+              "r": "8.63",
+              "display": ""
+            },
+            {
+              "r": "8.12",
+              "display": ""
+            },
+            {
+              "r": "7.28",
+              "display": ""
+            },
+            {
+              "r": "6.03",
+              "display": "none"
+            },
+            {
+              "r": "4.50",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "spawning",
+          "active": "spawning",
+          "motion": "playing",
+          "circles": 4,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "dictating",
+      "data": [
+        {
+          "source": "website",
+          "state": "dictating",
+          "active": "dictating",
+          "motion": "playing",
+          "circles": 2,
+          "headCircles": [
+            {
+              "r": "8.00",
+              "display": ""
+            },
+            {
+              "r": "9.48",
+              "display": ""
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "dictating",
+          "active": "dictating",
+          "motion": "playing",
+          "circles": 4,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "sending",
+      "data": [
+        {
+          "source": "website",
+          "state": "sending",
+          "active": "sending",
+          "motion": "playing",
+          "circles": 1,
+          "headCircles": [
+            {
+              "r": "4.56",
+              "display": "none"
+            },
+            {
+              "r": "2.14",
+              "display": ""
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "sending",
+          "active": "sending",
+          "motion": "playing",
+          "circles": 1,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "receiving",
+      "data": [
+        {
+          "source": "website",
+          "state": "receiving",
+          "active": "receiving",
+          "motion": "playing",
+          "circles": 1,
+          "headCircles": [
+            {
+              "r": "10.00",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "receiving",
+          "active": "receiving",
+          "motion": "playing",
+          "circles": 1,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "uploading",
+      "data": [
+        {
+          "source": "website",
+          "state": "uploading",
+          "active": "uploading",
+          "motion": "playing",
+          "circles": 1,
+          "headCircles": [
+            {
+              "r": "10.00",
+              "display": ""
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "uploading",
+          "active": "uploading",
+          "motion": "playing",
+          "circles": 1,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "alerting",
+      "data": [
+        {
+          "source": "website",
+          "state": "alerting",
+          "active": "alerting",
+          "motion": "playing",
+          "circles": 0,
+          "headCircles": [
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "alerting",
+          "active": "alerting",
+          "motion": "playing",
+          "circles": 0,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "powering-down",
+      "data": [
+        {
+          "source": "website",
+          "state": "powering-down",
+          "active": "powering-down",
+          "motion": "playing",
+          "circles": 0,
+          "headCircles": [
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "27.8",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "powering-down",
+          "active": "powering-down",
+          "motion": "playing",
+          "circles": 1,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "humming",
+      "data": [
+        {
+          "source": "website",
+          "state": "humming",
+          "active": "humming",
+          "motion": "playing",
+          "circles": 2,
+          "headCircles": [
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "5.06",
+              "display": ""
+            },
+            {
+              "r": "6.49",
+              "display": ""
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "humming",
+          "active": "humming",
+          "motion": "playing",
+          "circles": 0,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "searching",
+      "data": [
+        {
+          "source": "website",
+          "state": "searching",
+          "active": "searching",
+          "motion": "playing",
+          "circles": 0,
+          "headCircles": [
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "searching",
+          "active": "searching",
+          "motion": "playing",
+          "circles": 3,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "state": "waking",
+      "data": [
+        {
+          "source": "website",
+          "state": "waking",
+          "active": "waking",
+          "motion": "playing",
+          "circles": 0,
+          "headCircles": [
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            },
+            {
+              "r": "0",
+              "display": "none"
+            }
+          ],
+          "viewBox": "-15.00 -15.00 259.00 259.00",
+          "invalid": false
+        },
+        {
+          "source": "dmg",
+          "state": "waking",
+          "active": "waking",
+          "motion": "playing",
+          "circles": 0,
+          "headCircles": [],
+          "viewBox": "0 0 220.8 220.8",
+          "invalid": false
+        }
+      ]
+    }
+  ],
+  "onlyDmg": "仅 DMG 支持",
+  "returned": "idle",
+  "environment": {
+    "browser": "Chromium 154.0.8037.99",
+    "browserPlugin": "not available",
+    "method": "Playwright",
+    "desktop": {
+      "width": 1100,
+      "height": 900
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "smoke": {
+    "states": 53,
+    "invalid": [],
+    "missing": [],
+    "waking": "请求：waking ｜ 实际运行：idle",
+    "colorsBefore": [
+      "rgb(255, 176, 57)"
+    ],
+    "frozen": [
+      "resting",
+      "resting",
+      "resting",
+      "resting",
+      "resting",
+      "resting",
+      "resting",
+      "resting"
+    ],
+    "frozenColors": [
+      "rgb(255, 176, 57)",
+      "rgb(255, 255, 255)"
+    ],
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "browser": "154.0.8037.99"
+  },
+  "lifecycle": {
+    "dark": [
+      "rgb(255, 176, 57)",
+      "rgb(36, 36, 36)"
+    ],
+    "light": [
+      "rgb(255, 176, 57)",
+      "rgb(255, 255, 255)"
+    ],
+    "eyes": [
+      "",
+      ""
+    ],
+    "reduced": [
+      "resting",
+      "resting",
+      "resting",
+      "resting",
+      "resting",
+      "resting",
+      "resting",
+      "resting"
+    ],
+    "mobileVisibility": [
+      {
+        "motion": "playing",
+        "state": "idle"
+      },
+      {
+        "motion": "playing",
+        "state": "idle"
+      },
+      {
+        "motion": "playing",
+        "state": "idle"
+      },
+      {
+        "motion": "playing",
+        "state": "idle"
+      },
+      {
+        "motion": "playing",
+        "state": "idle"
+      },
+      {
+        "motion": "playing",
+        "state": "idle"
+      },
+      {
+        "motion": "playing",
+        "state": "idle"
+      },
+      {
+        "motion": "playing",
+        "state": "idle"
+      }
+    ]
+  },
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "cleanup": {
+    "playing": {
+      "raf": 8,
+      "intervals": 1
+    },
+    "switched": {
+      "raf": 8,
+      "intervals": 1
+    },
+    "frozen": {
+      "raf": 0,
+      "intervals": 1
+    },
+    "disposed": {
+      "raf": 0,
+      "intervals": 0
+    },
+    "restored": {
+      "raf": 8,
+      "intervals": 1
+    }
+  }
+}

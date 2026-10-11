@@ -192,12 +192,12 @@ test("website component moves, blinks, morphs, pauses and releases RAF/media lis
     }
     await act(() => avatar.setState("thinking"));
     tick(120);
-    assert.ok(
-      [...el.querySelectorAll("circle")].some(
-        (c) => Number(c.getAttribute("r")) > 0,
-      ),
-      "thinking must show morph particles",
+    const thinkingSides = [...el.querySelector("svg").children].filter(
+      n => n.tagName.toLowerCase() === "path" && n.classList.contains("grok-bot-mark__head"),
     );
+    assert.equal(thinkingSides.length, 2);
+    assert.ok(thinkingSides.every(n => n.style.display === "" && n.hasAttribute("transform")),
+      "thinking must show two side dots, plus the central head");
     await act(() => avatar.setState("writing"));
     tick(120);
     const glyphs = () => [...el.querySelector("svg").children].filter(
@@ -220,6 +220,16 @@ test("website component moves, blinks, morphs, pauses and releases RAF/media lis
     assert.equal(glyphs()[0].style.display, "none");
     assert.equal(glyphs()[2].style.display, "");
     assert.notEqual(glyphs()[2].getAttribute("d"), writingShaft.getAttribute("d"));
+    for (const state of ["thinking", "orbit", "radar", "progress", "spawning", "dictating",
+      "sending", "receiving", "uploading", "writing", "alerting", "powering-down"]) {
+      await act(() => avatar.setState(state));
+      tick(120);
+      await act(() => avatar.setState("idle"));
+      tick(120);
+      assert.ok([...el.querySelectorAll(".grok-bot-mark__eye")].every(n => n.style.display !== "none"),
+        `${state} must restore eyes when returning to idle`);
+      assert.ok(glyphs().every(n => n.style.display === "none"), `${state} must clear its glyph`);
+    }
     for (const shape of avatarShapes) {
       await act(() => avatar.setShape(shape));
       tick(60);
@@ -259,5 +269,27 @@ test("website component moves, blinks, morphs, pauses and releases RAF/media lis
       if (descriptor) Object.defineProperty(globalThis, key, descriptor);
       else delete globalThis[key];
     }
+  }
+});
+
+test("DMG lifecycle transitions and morph recovery preserve the real state", () => {
+  function advance(engine, behavior, seconds) {
+    for (let i = 0; i < Math.round(seconds * 60); i++) {behavior.advance(1 / 60);engine.advance(1 / 60);}
+  }
+  for (const state of ["finished", "failed", "approving", "waking"]) {
+    const engine = createMotion({body:"sphere"}), behavior = createBehavior(engine,state,{seed:1,firstPhase:0});
+    advance(engine,behavior,10);
+    assert.equal(behavior.state,"idle", `${state} must auto-return to idle`);
+  }
+  const engine = createMotion({body:"sphere"}), behavior = createBehavior(engine,"blocked",{seed:1,firstPhase:0});
+  advance(engine,behavior,119);
+  assert.equal(behavior.state,"blocked");
+  advance(engine,behavior,2);
+  assert.equal(behavior.state,"drowsy");
+  for (const state of Object.keys(stateDefinitions).filter(s => stateDefinitions[s].morph)) {
+    behavior.setState(state);advance(engine,behavior,2);
+    behavior.setState("idle");advance(engine,behavior,2);
+    assert.equal(engine.frame().morph,null, `${state} must finish morph recovery`);
+    assert.equal(engine.frame().eyes.length,2);
   }
 });

@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>Grok Bot · 全状态对照</title><link rel="stylesheet" href="./avatar-states.css"></head><body>
+<nav><a href="./avatar-motion.html">← 动态头像画廊</a><a href="../docs/avatar-state-audit.md">检查结果与状态说明</a></nav>
+<main><h1>Bot 头像状态对照</h1><p class="intro">官网 35 状态 / DMG 53 状态。两列使用各自的原头像子集；同名状态可能有不同动作。</p>
+<div class="controls"><label>状态 <select id="audit-state" aria-label="状态"></select></label><button id="audit-prev">上一个</button><button id="audit-next">下一个</button><button id="audit-replay">从头播放</button><button id="audit-idle">恢复 idle</button><label>主题 <select id="audit-theme"><option value="light">浅色</option><option value="dark">深色</option></select></label><label><input id="audit-paused" type="checkbox">静态回退</label></div>
+<p id="audit-description" class="description" role="status"></p>
+<div class="sources"><section><h2>官网组件</h2><p id="website-status" class="source-status"></p><div id="website-stage" class="stage"></div><div id="website-sizes" class="sizes"></div></section><section><h2>DMG 0.68.1 引擎</h2><p id="dmg-status" class="source-status"></p><div id="dmg-stage" class="stage"></div><div id="dmg-sizes" class="sizes"></div></section></div>
+<p class="intro">放大区 144px；下方依次为 18 / 32 / 54px。重新播放、切换暂停或进入视口会重置演示相位；两列不承诺逐帧同步。状态文案是本示例的说明，不是后台任务事件。</p>
+<p class="intro"><a href="./writing-avatar.html">用户参考图：书写笔尖、卡片与在线圆点 →</a></p></main><script type="module" src="./avatar-states.js"></script></body></html>

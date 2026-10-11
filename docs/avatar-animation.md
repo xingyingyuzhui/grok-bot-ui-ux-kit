@@ -6,6 +6,8 @@
 
 两张补充参考图对应的倾斜笔杆与水滴笔尖见 [书写头像分析](avatar-reference.md) 和 [可运行示例](../examples/writing-avatar.html)：使用 writing，不是 alerting；在线圆点由展示层单独渲染。
 
+其它状态已补充 [全状态检查](avatar-state-audit.md)、[53状态完整目录](avatar-state-catalog.md) 和 [双来源动态对照](../examples/avatar-states.html)。553组受控检查覆盖全部35/53状态，并确认轨道点、生成粒子、待机光晕与同名状态的来源差异。
+
 ![六个 Bot 的动态头像参考（截图为单帧）](screenshots/avatar-motion-light.jpg)
 
 ## 两套来源

@@ -23,6 +23,7 @@ npm run dev
 | [官网风格产品预览](index.html) | 动态彩色Bot头像、两行聊天列表、紧凑标题栏、胶囊输入区、可切换官网/DMG视觉来源 |
 | [动态头像画廊](examples/avatar-motion.html) | 六个 Bot 的原动画、35 状态、25 轮廓、暂停、转身与形变 |
 | [书写头像参考](examples/writing-avatar.html) | 两张补充参考图的橙色笔尖、Bot卡片、在线圆点与聊天状态；writing / alerting 对照 |
+| [全状态双来源对照](examples/avatar-states.html) | 全部53个状态入口、18/32/54/144px尺寸、形变恢复；[553组检查与差异说明](docs/avatar-state-audit.md) |
 | [设计变量参考](examples/design-tokens.html) | 浅/深主题、136 个语义 token、字体与结构示意 |
 | [组件行为示例](examples/workbench.html) | Bot 切换、侧边栏调整、输入、附件、发送状态、模拟语音、设置与线程分区 |
 | [原始素材画廊](examples/asset-gallery.html) | 808 个图标名称与 outline/filled 字形、图片、字体和音频 |
