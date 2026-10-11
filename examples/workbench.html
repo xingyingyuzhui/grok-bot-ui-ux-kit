@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grok Bot · 组件行为参考</title><link rel="stylesheet" href="../src/styles.css"><link rel="stylesheet" href="./workbench.css"></head>
+<body class="grok-surface">
+<div class="reference-note"><a href="./design-tokens.html">设计变量</a><span>组件行为参考 · 示例数据 · 原始应用画面未验证</span><a href="../docs/integration.md">接入说明</a></div>
+<div class="shell" id="shell">
+  <aside class="sidebar" aria-label="Bot 与聊天侧边栏">
+    <div class="sidebar-top"><img src="../assets/images/app-icon-C7NKj2u7.png" width="28" height="28" alt="Grok Bot"><button class="grok-button grok-icon-button" id="collapse" aria-label="折叠侧边栏"><span data-icon="layout-sidebar-left"></span></button></div>
+    <button class="grok-menu-row" id="new-chat"><span data-icon="plus"></span><span class="expanded-label">新建聊天</span></button>
+    <label class="sidebar-search"><span data-icon="search"></span><input id="bot-search" aria-label="搜索 Bot" placeholder="搜索 Bot"></label>
+    <div class="list-heading expanded-label">Bot</div>
+    <nav id="bots" aria-label="选择 Bot"><button class="grok-menu-row bot" aria-selected="true" data-bot="工作伙伴"><span class="avatar">G</span><span class="expanded-label">工作伙伴</span></button><button class="grok-menu-row bot" aria-selected="false" data-bot="研究助手"><span class="avatar">R</span><span class="expanded-label">研究助手</span></button></nav>
+    <div class="sidebar-bottom"><button class="grok-menu-row" id="settings"><span data-icon="settings"></span><span class="expanded-label">设置</span></button><a class="grok-menu-row" href="./asset-gallery.html"><span data-icon="file-media"></span><span class="expanded-label">原始素材</span></a></div>
+    <div id="resize" class="sidebar-resize" role="separator" tabindex="0" aria-label="调整侧边栏宽度" aria-orientation="vertical" aria-valuemin="240" aria-valuemax="400" aria-valuenow="280"></div>
+  </aside>
+  <main class="workspace" id="workspace">
+    <section class="conversation" aria-label="主聊天">
+      <header class="chat-header"><div><strong id="bot-name">工作伙伴</strong><div class="grok-status">本地组件示例</div></div><div class="header-actions"><button class="grok-button" id="computer"><span data-icon="device-desktop"></span>电脑</button><button class="grok-button" id="thread-toggle"><span data-icon="split-horizontal"></span>任务线程</button></div></header>
+      <div class="messages" id="messages" aria-live="polite"><div class="message agent"><div class="grok-bubble">这页演示从安装包确认的视觉变量和交互分支。你可以输入文字、暂存附件，或切换消息状态。</div><div class="message-meta">Agent · 示例文案</div></div><div class="message agent"><article class="grok-card"><strong>任务卡片示例</strong><p>阅读公开资料，整理一份可检查的结果。</p><button class="grok-button" id="open-task">查看任务线程</button></article></div></div>
+      <div class="composer-wrap">
+        <div class="toolbar"><label>下一条消息状态 <select id="delivery"><option value="sent">已发送（示例）</option><option value="queued">等待发送（示例）</option><option value="failed">发送失败（示例）</option></select></label><label><input id="readonly" type="checkbox">只读状态</label></div>
+        <div id="attachments" class="attachment-list" aria-label="暂存附件"></div>
+        <form class="composer" id="composer"><textarea id="prompt" rows="2" placeholder="发消息给 Bot" aria-label="消息输入"></textarea><div class="composer-bottom"><div class="buttons"><button type="button" class="grok-button grok-icon-button" id="attach" aria-label="添加附件"><span data-icon="plus"></span></button><input type="file" id="files" multiple hidden><button type="button" class="grok-button" id="teach">教它做一项任务</button></div><span id="voice-status" class="grok-status"></span><button class="grok-button grok-button--primary grok-icon-button" id="send" aria-label="模拟语音状态"><span id="action-icon" data-icon="mic"></span></button></div></form>
+        <div class="composer-hint" id="composer-hint">Enter 发送 · Shift+Enter 换行 · 语音按钮仅模拟状态，不请求麦克风</div>
+      </div>
+    </section>
+    <section class="thread" id="thread" hidden aria-label="任务线程"><header class="chat-header"><strong>任务线程</strong><button class="grok-button grok-icon-button close-thread" aria-label="关闭线程"><span data-icon="close"></span></button></header><div class="thread-content"><p class="grok-status">用于观察主聊天与具体任务的分区关系。</p><div class="grok-bubble">这是当前任务的独立上下文。示例没有执行任务或连接真实 Agent。</div><button class="grok-button close-thread">返回主聊天</button></div></section>
+  </main>
+</div>
+<dialog id="settings-dialog"><div class="dialog-head"><strong>设置</strong><button class="grok-button grok-icon-button" id="close-settings" aria-label="关闭设置"><span data-icon="close"></span></button></div><div class="settings-body"><nav class="settings-nav" aria-label="设置分类"><button class="grok-menu-row" data-tab="general" aria-selected="true">通用</button><button class="grok-menu-row" data-tab="computer" aria-selected="false">电脑</button><button class="grok-menu-row" data-tab="usage" aria-selected="false">用量与账单</button><button class="grok-menu-row" data-tab="updates" aria-selected="false">更新</button></nav><div class="settings-content"><section data-panel="general"><h2>外观</h2><div class="setting-row"><label for="theme">主题</label><select id="theme"><option value="system">系统</option><option value="light">浅色</option><option value="dark">深色</option></select></div><div class="setting-row"><label for="font">字体样本</label><select id="font"><option value="system">系统字体</option><option value="xvf">打包 XVF 字体</option></select></div><p class="grok-status">XVF 是原代码中的条件分支，真实应用当前是否启用未确认。</p><h2>线程</h2><div class="setting-row"><label for="side-by-side">在主聊天旁显示</label><input id="side-by-side" type="checkbox" checked></div><p class="grok-status">并排条件是主内容可用宽度 ≥ 848px。此示例不持久化偏好。</p></section><section data-panel="computer" hidden><h2>电脑</h2><p>原应用电脑功能依赖宿主与服务。本页展示分区，不模拟实际电脑连接。</p></section><section data-panel="usage" hidden><h2>用量与账单</h2><p>原入口受条件控制。此示例统一显示；没有账户、费用或付款功能。</p></section><section data-panel="updates" hidden><h2>更新</h2><p>参考版本：0.68.1。此处没有自动更新程序。</p></section></div></div></dialog>
+<dialog id="thread-dialog"><div class="dialog-head"><strong>任务线程 · 窄窗口适配示例</strong><button class="grok-button" id="close-thread-dialog">关闭</button></div><p>原应用的独立线程行为以规范为准；弹窗是这个 Web 示例的适配选择。</p><div class="grok-bubble">此处保留当前任务上下文。</div></dialog>
+<dialog id="info-dialog"><div class="dialog-head"><strong id="info-title"></strong><button class="grok-button" id="close-info">关闭</button></div><p id="info-body"></p></dialog>
+<script type="module" src="./workbench.js"></script></body></html>

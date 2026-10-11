@@ -1,0 +1,376 @@
+{
+  "sourceVersion": "0.68.1",
+  "assets": [
+    {
+      "path": "assets/fonts/KaTeX_AMS-Regular-BQhdFMY1.woff2",
+      "source": "reference/renderer/assets/KaTeX_AMS-Regular-BQhdFMY1.woff2",
+      "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308",
+      "bytes": 28076,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2",
+      "source": "reference/renderer/assets/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2",
+      "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c",
+      "bytes": 6912,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2",
+      "source": "reference/renderer/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2",
+      "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b",
+      "bytes": 6908,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Fraktur-Bold-CL6g_b3V.woff2",
+      "source": "reference/renderer/assets/KaTeX_Fraktur-Bold-CL6g_b3V.woff2",
+      "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f",
+      "bytes": 11348,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Fraktur-Regular-CTYiF6lA.woff2",
+      "source": "reference/renderer/assets/KaTeX_Fraktur-Regular-CTYiF6lA.woff2",
+      "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc",
+      "bytes": 11316,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Bold-Cx986IdX.woff2",
+      "source": "reference/renderer/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+      "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021",
+      "bytes": 25324,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2",
+      "source": "reference/renderer/assets/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2",
+      "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b",
+      "bytes": 16780,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Italic-NWA7e6Wa.woff2",
+      "source": "reference/renderer/assets/KaTeX_Main-Italic-NWA7e6Wa.woff2",
+      "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267",
+      "bytes": 16988,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Regular-B22Nviop.woff2",
+      "source": "reference/renderer/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+      "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866",
+      "bytes": 26272,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2",
+      "source": "reference/renderer/assets/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2",
+      "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1",
+      "bytes": 16400,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Math-Italic-t53AETM-.woff2",
+      "source": "reference/renderer/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+      "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264",
+      "bytes": 16440,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Bold-D1sUS0GD.woff2",
+      "source": "reference/renderer/assets/KaTeX_SansSerif-Bold-D1sUS0GD.woff2",
+      "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62",
+      "bytes": 12216,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Italic-C3H0VqGB.woff2",
+      "source": "reference/renderer/assets/KaTeX_SansSerif-Italic-C3H0VqGB.woff2",
+      "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a",
+      "bytes": 12028,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2",
+      "source": "reference/renderer/assets/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2",
+      "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342",
+      "bytes": 10344,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Script-Regular-D3wIWfF6.woff2",
+      "source": "reference/renderer/assets/KaTeX_Script-Regular-D3wIWfF6.woff2",
+      "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b",
+      "bytes": 9644,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size1-Regular-mCD8mA8B.woff2",
+      "source": "reference/renderer/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2",
+      "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe",
+      "bytes": 5468,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size2-Regular-Dy4dx90m.woff2",
+      "source": "reference/renderer/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2",
+      "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd",
+      "bytes": 5208,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size4-Regular-Dl5lxZxV.woff2",
+      "source": "reference/renderer/assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2",
+      "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0",
+      "bytes": 4928,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/KaTeX_Typewriter-Regular-CO6r4hn1.woff2",
+      "source": "reference/renderer/assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2",
+      "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b",
+      "bytes": 13568,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/X-VF-C7NyO54W.woff2",
+      "source": "reference/renderer/assets/X-VF-C7NyO54W.woff2",
+      "sha256": "0e287249b246a4fa1b2e87c15a1f95daa831938a44e2c2a0b1a61a0df8b18a43",
+      "bytes": 82620,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/fonts/XMono-VF-K4lk0ar0.woff2",
+      "source": "reference/renderer/assets/XMono-VF-K4lk0ar0.woff2",
+      "sha256": "2a5fda92be2d5288468b6e231ca260135acb6e913e77a37634c145eb4d93e341",
+      "bytes": 24704,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/images/apollo-B0sEgAUH.png",
+      "source": "reference/renderer/assets/apollo-B0sEgAUH.png",
+      "sha256": "f6f384e4105595e7a65c9fb99d3bb1acf6b1f3a0579114e0499e96217801481a",
+      "bytes": 8150,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/app-icon-C7NKj2u7.png",
+      "source": "reference/renderer/assets/app-icon-C7NKj2u7.png",
+      "sha256": "79e6a73e634ce7ad8d1982739e9064bcc9c9ec5106bdd7281d7514ee68169ad2",
+      "bytes": 33135,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/ashby-BidvOSTU.png",
+      "source": "reference/renderer/assets/ashby-BidvOSTU.png",
+      "sha256": "54cbf3075bfc899e8be9517069ef81cf841cd3fbaf7a46d444a7c0cceca0988b",
+      "bytes": 5030,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/box-DrJB_xON.png",
+      "source": "reference/renderer/assets/box-DrJB_xON.png",
+      "sha256": "7a6a446cacfeeefddbfde7225a50545b3d18d323155c75957ed2137ad634c9c7",
+      "bytes": 7524,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/calendly-DYRMkyLM.svg",
+      "source": "reference/renderer/assets/calendly-DYRMkyLM.svg",
+      "sha256": "0ea3b3784f04256aa1dbe27c1e7b8a01a83c29be470f3326e0fd18003cd353f0",
+      "bytes": 5737,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/canva-djBDOrSx.svg",
+      "source": "reference/renderer/assets/canva-djBDOrSx.svg",
+      "sha256": "b8af24ff29cd5dacc1a6cf55be060a7639acb5c0e50e65b00f344288e4452a72",
+      "bytes": 4273,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/clay-CXmF7QZG.png",
+      "source": "reference/renderer/assets/clay-CXmF7QZG.png",
+      "sha256": "be4e9d359788e8917a61f6b7972721fbb13377a541772cca1960949bb7daa1ae",
+      "bytes": 13118,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/context-folder-B7_jGHrF.webp",
+      "source": "reference/renderer/assets/context-folder-B7_jGHrF.webp",
+      "sha256": "11c650bfe32e72e6fcb34633da8b55d67350055e33e86719167b0257cfb8e5e0",
+      "bytes": 2682,
+      "category": "images"
+    },
+    {
+      "path": "assets/fonts/cursor-icons-16-gwXtdAvu.woff2",
+      "source": "reference/renderer/assets/cursor-icons-16-gwXtdAvu.woff2",
+      "sha256": "3887767ecc6d7ac4ec8f5f1bfe7133a2e1b83a0992bf3211abb1f3680696054a",
+      "bytes": 125344,
+      "category": "fonts"
+    },
+    {
+      "path": "assets/images/databricks-NEF0SRYx.png",
+      "source": "reference/renderer/assets/databricks-NEF0SRYx.png",
+      "sha256": "124d2031fc5d9eabdfe17ffadeb66da9f18eedc29af71a870d3956e02062195b",
+      "bytes": 14342,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/demo-computer-wallpaper-BO7Ye4dV.jpg",
+      "source": "reference/renderer/assets/demo-computer-wallpaper-BO7Ye4dV.jpg",
+      "sha256": "90e253579c5e6ff18cb03059bbe380d64263222be48360802cda58e3d8392216",
+      "bytes": 97170,
+      "category": "images"
+    },
+    {
+      "path": "assets/styles/desktop-mount-panel-ClcOEGzG.css",
+      "source": "reference/renderer/assets/desktop-mount-panel-ClcOEGzG.css",
+      "sha256": "e8848d83f922545e170a61fa13fa1a5565a9866ea67d3761a7808ad4eeac6dd5",
+      "bytes": 4785,
+      "category": "styles"
+    },
+    {
+      "path": "assets/styles/fullscreen-file-viewer-body-C0m-nKZz.css",
+      "source": "reference/renderer/assets/fullscreen-file-viewer-body-C0m-nKZz.css",
+      "sha256": "3e1870e8769b4bb9d3c2eea2c9e68b81fbbcfcf6cec4145a480edd2ea4ceb36d",
+      "bytes": 541,
+      "category": "styles"
+    },
+    {
+      "path": "assets/styles/index-DLJ0gwBH.css",
+      "source": "reference/renderer/assets/index-DLJ0gwBH.css",
+      "sha256": "1449959e247b6413b5ced6559c91d4d0821e4fab79ff4e09ac7cb61008c3800c",
+      "bytes": 663915,
+      "category": "styles"
+    },
+    {
+      "path": "assets/images/link-dE5q15v1.svg",
+      "source": "reference/renderer/assets/link-dE5q15v1.svg",
+      "sha256": "24782fa174ca0b26642c254118b094a1969d031c3e606561924c340ff4a7503f",
+      "bytes": 25323,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/mailchimp-AFHOmIeb.svg",
+      "source": "reference/renderer/assets/mailchimp-AFHOmIeb.svg",
+      "sha256": "beed6f58fe17a9e7430e3f632429a0dd1dfec24879d86c43370506ee7e52cee4",
+      "bytes": 5487,
+      "category": "images"
+    },
+    {
+      "path": "assets/styles/markdown-math-katex-DijbQiNo.css",
+      "source": "reference/renderer/assets/markdown-math-katex-DijbQiNo.css",
+      "sha256": "c236baf8b5d140dba1937639cd1adfa0c5afa81584e7ebae711c8a2b1ad22047",
+      "bytes": 26581,
+      "category": "styles"
+    },
+    {
+      "path": "assets/images/nooks-Da6AC940.png",
+      "source": "reference/renderer/assets/nooks-Da6AC940.png",
+      "sha256": "9ce39076ea63b6dba09f383d73107f5ce6e83265223b88c94680863edb50cc4c",
+      "bytes": 8968,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/quickbooks-N88wePET.png",
+      "source": "reference/renderer/assets/quickbooks-N88wePET.png",
+      "sha256": "70fa3cf66911871dc2c34557e843e5b1b818bed60d20f89bae8c41b449c4e5d9",
+      "bytes": 8460,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/rippling-cz7o1jpc.png",
+      "source": "reference/renderer/assets/rippling-cz7o1jpc.png",
+      "sha256": "1f8e1b805bc847d35f2ca96f53c3bf13f5705d40d4eba859522d35f39685a1e5",
+      "bytes": 4570,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/salesforce-DuGcPENR.svg",
+      "source": "reference/renderer/assets/salesforce-DuGcPENR.svg",
+      "sha256": "b336c25a3fd584a58b9c7d286054802d17d6d4adb41cb995aedc031e4f4340ca",
+      "bytes": 12673,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/snowflake-B53K53W6.png",
+      "source": "reference/renderer/assets/snowflake-B53K53W6.png",
+      "sha256": "f4a98db83cd5ac180fef571d5907f0f405a56662348c8c803b02c62ed795b975",
+      "bytes": 12293,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/tableau-DMgl1MR0.png",
+      "source": "reference/renderer/assets/tableau-DMgl1MR0.png",
+      "sha256": "e991eb03b713a7695f8a925ba2918c132505781556c907ebf123c2cd3e25cb55",
+      "bytes": 4823,
+      "category": "images"
+    },
+    {
+      "path": "assets/audio/tmp-1-open-blip-D1y74m9N.wav",
+      "source": "reference/renderer/assets/tmp-1-open-blip-D1y74m9N.wav",
+      "sha256": "7e454b7dd0aed424afccaa4c858f46415158fa39a85e5f2dbd657cb32411eaa6",
+      "bytes": 49004,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/tmp-2-tick-DY1KrPne.wav",
+      "source": "reference/renderer/assets/tmp-2-tick-DY1KrPne.wav",
+      "sha256": "6c50642ba6a388a95400501e0f2d3b0185f93d7342ea3eb308c6a7143c717db1",
+      "bytes": 42284,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/tmp-3-double-tick-CdEXJqnB.wav",
+      "source": "reference/renderer/assets/tmp-3-double-tick-CdEXJqnB.wav",
+      "sha256": "c166fb491094d42216523c7fa80003b78b6ed701a56e80333d1ad4dc41d52383",
+      "bytes": 63404,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/tmp-4-chime-a-CH10PUxT.wav",
+      "source": "reference/renderer/assets/tmp-4-chime-a-CH10PUxT.wav",
+      "sha256": "5d9408bab724f5ecf3f712c3809d275f4ec937b5e93b32c315533676bd12fc09",
+      "bytes": 65324,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/tmp-5-chime-b-B3aR0Am-.wav",
+      "source": "reference/renderer/assets/tmp-5-chime-b-B3aR0Am-.wav",
+      "sha256": "8ae218b2d3764cc1c056ca3792c5e922ea5d45631d3cdf5218e8667282e26b6b",
+      "bytes": 67244,
+      "category": "audio"
+    },
+    {
+      "path": "assets/images/unify-cta-individual-CuibPM73.png",
+      "source": "reference/renderer/assets/unify-cta-individual-CuibPM73.png",
+      "sha256": "c637ec4ac3427773c3ff18b18fbcb1dcf01fd0d7218a08b0359571e1c3a85c48",
+      "bytes": 14187,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/unify-cta-team-BjaeBmn3.png",
+      "source": "reference/renderer/assets/unify-cta-team-BjaeBmn3.png",
+      "sha256": "db36eda13416816f5a5982fdddc84b76a4d3307f5b284fb9a106529a8fcaea94",
+      "bytes": 14119,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/workday-DI2a8j1o.svg",
+      "source": "reference/renderer/assets/workday-DI2a8j1o.svg",
+      "sha256": "a09892f94ee5990e0f16b41852eca1a115de9b80264e7607e8055b4c1a9caeca",
+      "bytes": 4192,
+      "category": "images"
+    },
+    {
+      "path": "assets/images/zoominfo-kXQt8h27.png",
+      "source": "reference/renderer/assets/zoominfo-kXQt8h27.png",
+      "sha256": "672af7a026b514c043d0dc611aea8ac8bff8e17c56e44027b0a04a6316206142",
+      "bytes": 7115,
+      "category": "images"
+    }
+  ]
+}

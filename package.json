@@ -1,0 +1,21 @@
+{
+  "name": "grok-bot-ui-ux-kit",
+  "version": "0.68.1-reference.1",
+  "private": true,
+  "type": "module",
+  "description": "Grok Bot 0.68.1 的 UI/UX 静态参考、素材与跨框架实现指南",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./styles.css": "./src/styles.css",
+    "./tokens.css": "./tokens/themes.css",
+    "./tokens": "./tokens/themes.js"
+  },
+  "scripts": {
+    "build": "python3 scripts/build.py && python3 scripts/build-reference.py && python3 scripts/build-product.py && python3 scripts/build-gallery.py",
+    "check": "python3 scripts/verify.py && node --test tests/*.test.js",
+    "dev": "python3 -m http.server 8766 --bind 127.0.0.1"
+  }
+}

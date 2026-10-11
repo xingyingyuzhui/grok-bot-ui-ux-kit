@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://x.ai/bot",
+  "observedDate": "2026-10-11",
+  "assets": [
+    {
+      "name": "Chief",
+      "path": "assets/website/chief.svg",
+      "color": "#54B9A6",
+      "sha256": "50c6f2363d342a1fd93f181afe8bb9a5057d2c81422b63036ddd08866d132131"
+    },
+    {
+      "name": "Sales Outbound",
+      "path": "assets/website/sales-outbound.svg",
+      "color": "#F19D38",
+      "sha256": "d7e518d084739ced1032d16457d5e69267b83dc7c0b9c65f45e0714fdb18a960"
+    },
+    {
+      "name": "Inbox Manager",
+      "path": "assets/website/inbox-manager.svg",
+      "color": "#6464EF",
+      "sha256": "b94a00efc4232fe5bd0ef91ebd0d6ea80eaa3b92fb9d5503372ff4f0adc451b1"
+    },
+    {
+      "name": "Account Manager",
+      "path": "assets/website/account-manager.svg",
+      "color": "#885CF5",
+      "sha256": "dee8e36b63ef9e032c8e1058134c189f2d628867ec0ade6152f7fe5be5238e8e"
+    },
+    {
+      "name": "Talent Scout",
+      "path": "assets/website/talent-scout.svg",
+      "color": "#3C82F6",
+      "sha256": "ca21ea09f7d607a7f6d325afdf956a770a302433c09db25748fc2d5e7b239673"
+    },
+    {
+      "name": "Expense Manager",
+      "path": "assets/website/expense-manager.svg",
+      "color": "#ED712E",
+      "sha256": "9a981298301ff48db618f4f45b5ee31e1219953f38c932dedd53826c0f9a4649"
+    },
+    {
+      "name": "Offsite crew",
+      "path": "assets/website/offsite-crew.svg",
+      "color": "#54B9A6",
+      "sha256": "4cf7a1bba9eb2c4c8e63f69e3feb26bfc11979417c3dab62790f43222c90c083"
+    }
+  ]
+}

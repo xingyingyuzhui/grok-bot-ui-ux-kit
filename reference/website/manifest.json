@@ -1,0 +1,14 @@
+{
+  "sourceUrl": "https://x.ai/bot",
+  "observedDate": "2026-10-11",
+  "files": [
+    {
+      "path": "reference/website/observation.json",
+      "sha256": "ac5ae93be7b69201c53125431fc5ae57c7a3ff6f2a4b19495ccfa791840eb538"
+    },
+    {
+      "path": "reference/website/observed.css",
+      "sha256": "c4eb5a66acb5935c08596331b86cec3da6b321263d6b6e7fca7a1f963b23a446"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "records": [
+    {
+      "file": "evidence/dmg-evidence-recorded.json.gz",
+      "uncompressedSha256": "c8e86fd6fc0f44fe10cee0b2356e1c5a43f6c3da210f619bf23a796ddf25aa1c",
+      "evidenceId": "ev_9a3b22242ebfb9ba7e48995f780064f33e247990575aaf4129b80a01694ba513",
+      "compressedBytes": 326039,
+      "uncompressedBytes": 1596329
+    },
+    {
+      "file": "evidence/asar-extraction-evidence.json.gz",
+      "uncompressedSha256": "09b3aea68fd8aa3b34daa0f562b834bfef2992005d57b0b1252abf8b7eff036b",
+      "evidenceId": "ev_f9952ae3efe374fd6046e96a976a4d5efe206d909fd9a712630fff6caf9001cc",
+      "compressedBytes": 93757,
+      "uncompressedBytes": 226470
+    },
+    {
+      "file": "evidence/renderer-rea-evidence.json.gz",
+      "uncompressedSha256": "550099d041d0469bcbcd749fff63b7de2cbdb2fa6b58d8f277007d2cc52e1bad",
+      "evidenceId": "ev_37ea2ba040342adc818604b2c0f30221fe136dac5a0409ff512c3e0bbfda1eb3",
+      "compressedBytes": 11094926,
+      "uncompressedBytes": 66286101
+    }
+  ],
+  "note": "Canonical records are preserved byte for byte inside gzip; original machine paths are historical observations, not prerequisites."
+}
